@@ -13,7 +13,7 @@ BASIC HTML DOCUMENT STRUCTURE
 TEXT ELEMENTS: PARAGRAPHS AND HEADINGS
 - Tags from <h1> to <h6> (stands for 'heading') are used to divide text into logical sections.
 - Tags <p> (stands for 'paragraph') are used to display blocks of text. 
-- <!-- --> construction is used fo commenting the code, making it unusable.
+- <!-- --> construction is used for commenting the code, making it unusable.
 - For improving code readability, it is preferable to divide each <h> tags with all it's <p> tags with \n.
 - It is a good practise to have a single <h1> tag on a page, while we can have multiphe <h2> to <h6> tags.
 - To make a segment of text bold we use <strong> tag.
@@ -32,3 +32,22 @@ IMAGES AND ATTRRIBUTES
 - To describe image with text, 'alt' attribute is used. This attribute should always be included, to let blind people understand what is shown in the picture and to let Google search engine understand the content of a picture.
 - It's important to add attributes to the <html> tag, such as 'lang'.
 - In the <head> tag we need to include the <meta> tag (satnds for 'metadata') in which we add attributes, thath will describe the HTML document, such as 'charset'. Usual charset value is UTF-8.
+
+HYPERLINKS
+- Hyperlinks are clickable piecies of text, which willl redirect the user to the other webpage on click.
+- To make a hyperlink <a> tag is used (satnds for 'anchor'). Inside the tag we write a piece of text, that will be our hyperlink. It's best to write such text that will reflect the contents of hyperlink.
+- In the opening tag of the hyperlink attribute 'href' is used, to specify the url which our hyperlink 
+will redirect to.
+- Attribute 'target' can be used to open the link in the new tab rather in the same tab. To do this, we set the value of target attribute to ="_blank".
+- To make a clickable link that doesn't reffer to anywhere we evaluate href to ="#".
+
+STRUCTURING OUR PAGE
+- HTML 5 has a variety of structuring containers which can be used to store different parts of content together in their specific containers. For example, a group of hyperlinks used to navigate the pages of a site can be stored inside of <nav> element (stands fo 'navigation').
+- Another widely used structure is <header> tag. Content which is being placed at the very top of the webpage or at the beginning of an article and usually has a specific forms is stored in <header>.
+- To store the content that lies athe very bottom of the page <footer> tag is used. It usually stores copyrigth message, phone numbers etc.
+- To include different symbols that are not avaliable on the keybord HTML entity is used. 
+It syntax is - &entity_name; Each entity has it's unique name, and to find the needed one you may use HTML entity table.
+
+SEMANTIC HTML
+- The purpose of semantic HTML is to make elements of the page have a specific meaning behind them, that will be usually reflected in the name of the tag, fo example, for making a piece of text bold we can use both <b> and <strong> tags. But <strong> is preferable since it has a specific meaning and thus making it easier to read and use code in the future.
+- The benefits of using semantic HTML: 1. Improved search engine working - Google search engine will understand the contents of the page more clearly thus making our site more accessible. 2. Making the contents of a site more accessible for people that are using screenreaders. 3. Making the code more suitable for future refactoring.
