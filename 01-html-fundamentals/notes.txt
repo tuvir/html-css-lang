@@ -1,0 +1,34 @@
+HTML INTRODUCTION
+- HTML is used to assemble a webpage out of individual elements like paragraphs, images, links and so on. 
+  Elements have their specific tags.
+- Element consits of 3 parts: opening tag - <p>; element's content - This is a content; closing tag - </p>.
+- If element is empty (like <img> element) closing tag is not used.
+
+BASIC HTML DOCUMENT STRUCTURE
+- HTML document always starts with <!DOCTYPE html> to let browser know that we using HTML.
+- Then <html> tag is used. Inside it two child tags are created - <head> and <body> (child tags are ones that are inside of another tag).
+- <head> tag is used for settings that are not usually rendered on the screen, like language, encoding and so on.
+- <body> tag is used for objects that will get rendered, like text blocks, links, images and videos.
+
+TEXT ELEMENTS: PARAGRAPHS AND HEADINGS
+- Tags from <h1> to <h6> (stands for 'heading') are used to divide text into logical sections.
+- Tags <p> (stands for 'paragraph') are used to display blocks of text. 
+- <!-- --> construction is used fo commenting the code, making it unusable.
+- For improving code readability, it is preferable to divide each <h> tags with all it's <p> tags with \n.
+- It is a good practise to have a single <h1> tag on a page, while we can have multiphe <h2> to <h6> tags.
+- To make a segment of text bold we use <strong> tag.
+- To make a segment of text italic we use <em> tag (stands for 'emphasise').
+
+TEXT ELEMENTS: LISTS
+- To make a list, we use <ol> tag (stands for 'ordered list'). Each item of <ol> will have a number before it.
+- Another way to make a list is to use <ul> tag (stands for 'unordered list'). It's the same as <ol> except list items will have bullet points instead of numbers.
+- Inside <ol> or <ul> tags, we use <li> tags (stands for 'list item') to make indiviual elements of list.
+- The main purpose of HTML is to structure all of the content of our webpage by storing different parts of content in their own elements. You can't just paste the text as one big blob, we use HTML to divide it into blocks, so it will be easy to understand and pleasing to look at.
+
+IMAGES AND ATTRRIBUTES
+- Attributes are specifications which are used to describe HTML elements. Attributes are usually written inside the openinig tag, for example <img src="link"/> where src is the 'source' attribute that tells the browser where to take from the needed image.
+- To add an image to our webpage we need to use <img/> tag. This tag is empty, so we dont use a closing tag. Instead '/' is put at the very end of <img/> tag.
+- To link the source if our image we use attribute 'src' (stands for 'source').
+- To describe image with text, 'alt' attribute is used. This attribute should always be included, to let blind people understand what is shown in the picture and to let Google search engine understand the content of a picture.
+- It's important to add attributes to the <html> tag, such as 'lang'.
+- In the <head> tag we need to include the <meta> tag (satnds for 'metadata') in which we add attributes, thath will describe the HTML document, such as 'charset'. Usual charset value is UTF-8.
