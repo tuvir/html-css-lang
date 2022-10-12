@@ -51,3 +51,12 @@ It syntax is - &entity_name; Each entity has it's unique name, and to find the n
 SEMANTIC HTML
 - The purpose of semantic HTML is to make elements of the page have a specific meaning behind them, that will be usually reflected in the name of the tag, fo example, for making a piece of text bold we can use both <b> and <strong> tags. But <strong> is preferable since it has a specific meaning and thus making it easier to read and use code in the future.
 - The benefits of using semantic HTML: 1. Improved search engine working - Google search engine will understand the contents of the page more clearly thus making our site more accessible. 2. Making the contents of a site more accessible for people that are using screenreaders. 3. Making the code more suitable for future refactoring.
+
+WORKING WITH IMAGES AND HYPERLINKS
+- Usually all the images which are used on a webpage are stored in a specific folder like 'img'. To include them into .html document we need to write an relative path to the image inside the 'img' folder.
+- To include the information that compliments existent conten, for example, related posts section after an article, we use <aside> container tag.
+- Don't forget to add 'alt' attribute to the <img> tag. The short description is suffice.
+
+MAKING A SNEAKER STORE COMPONENT
+- Product name, image, price and other qualities should be placed inside an <article> container tag.
+- Sincewe making a component of a bigger page, it is beter to use <h2> tags, since <h1> might already be used in the other place of webpage.
