@@ -1,0 +1,18 @@
+CSS INTRODUCTION
+- CSS stands for Cascade Style Sheets, is used to style content written in HTML code using diferent properties.
+- CSS properties are used to format the content: changing color, layout, spacing font etc.
+- CSS rule is a code structure that consists of several elements: 1. Selector - it says to which HTML element on the page the rule contents referr to. 2. Declaration block - this block itself consists of several things. It is written after the selector iside the curly braces.
+- Declaration block is made out of so called declarations (or styles) which consist of two parts - properties and values. Properties, for example, 'color' change the their respective qualities of HTML element. Values, in this case, 'red' are needed to specify the change. Values can be both numerical and text.
+- CSS rule example - h1{color: red; font-size: 15px.}
+
+INLINE, INTERNAL AND EXTERNAL CSS
+- The are three main ways to write CSS - inline (inside of opening tag of each HTML element), internal (inside the <style> tag in the <head> section of HTML document) and iexteranl (when we create separate file fo all the CSS code). External is the best way to wite CSS, first two options are not commonly used due to their inefficiency.
+- To connect the HTML document with CSS styles file <link/> tag is used. It's placed in the <head> of HTML file. It's href attribute value points to the CSS file, like this: ="style.css". It's useful to include rel attribute, to tell HTML file that we point to the stylesheet CSS file, like this: ="stylesheet".
+
+STYLING TEXT
+- There are many properties to style text, most commonly used ones are: font-size, font-family. 
+- It is better to write CSS rules according the order of the HTML elements on the page, from top to bottom. It is also preferable to group elements of one family together in the CSS file, fo example, all the <h> tags are better be included on top of CSS file together.
+
+COMBINING SELECTORS
+- Selectors can be combined in a list. For example, when we need to set 'font-family' propery to all of text tags, we can order all neede tags in a list and then apply their common property, rather than manually changing it in all specific rules.
+- ANother way to combine selctors is to combine parent selector with it's child selector, to make the properties change only the needed child selector. For example, when we need change only one <p> element in big <h> element we can write selctor like this: h p {}. This way of combining is called 'nesting' and is not the best one to use, since we can give names to the tags for better navigation.
