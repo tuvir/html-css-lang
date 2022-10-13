@@ -6,8 +6,8 @@ CSS INTRODUCTION
 - CSS rule example - h1{color: red; font-size: 15px.}
 
 INLINE, INTERNAL AND EXTERNAL CSS
-- The are three main ways to write CSS - inline (inside of opening tag of each HTML element), internal (inside the <style> tag in the <head> section of HTML document) and iexteranl (when we create separate file fo all the CSS code). External is the best way to wite CSS, first two options are not commonly used due to their inefficiency.
-- To connect the HTML document with CSS styles file <link/> tag is used. It's placed in the <head> of HTML file. It's href attribute value points to the CSS file, like this: ="style.css". It's useful to include rel attribute, to tell HTML file that we point to the stylesheet CSS file, like this: ="stylesheet".
+- The are three main ways to write CSS - inline (inside of opening tag of each HTML element), internal (inside the <style> tag in the <head> section of HTML document) and exteranl (when we create separate file fo all the CSS code). External is the best way to wite CSS, first two options are not commonly used due to their inefficiency.
+- To connect the HTML document with CSS styles file <link/> tag is used. It's placed in the <head> of HTML file. It's href attribute value points to the CSS file, like this: ="style.css". It's useful to include 'rel' attribute, to tell HTML file that we point to the stylesheet CSS file, like this: ="stylesheet".
 
 STYLING TEXT
 - There are many properties to style text, most commonly used ones are: font-size, font-family. 
@@ -16,3 +16,27 @@ STYLING TEXT
 COMBINING SELECTORS
 - Selectors can be combined in a list. For example, when we need to set 'font-family' propery to all of text tags, we can order all neede tags in a list and then apply their common property, rather than manually changing it in all specific rules.
 - ANother way to combine selctors is to combine parent selector with it's child selector, to make the properties change only the needed child selector. For example, when we need change only one <p> element in big <h> element we can write selctor like this: h p {}. This way of combining is called 'nesting' and is not the best one to use, since we can give names to the tags for better navigation.
+
+CLASSES AND ID SELECTORS
+- To make names of specific tags more unique 'id' attribute can be used, for example, <p id="copyright>. This will allow us to choose only the specific tag inside a parent tag.
+- To choose the id tag we use '#' selector after which we write the id name. Id names can't be repeated.
+- Another way to give unique names is to use 'class' attribute, for example, <p class="related-posts">. Class names CAN be repeated, which makes it more easier to divide elements using classes rather than id's.
+- To choose the class tag '.' selector is used. Classes are used most of the time, since using of id's can lead to
+errors and harden the future code refactoring.
+
+WORKING WITH COLORS
+- To work with pure colors, we usually use hexadecimal notation (#00ffff) and to work with transparent colors we use rgba notation 
+(rgba(0, 255, 255, 0.3)).
+- In both if these notations first group numbers is the red color, then green color and finally blue color.
+- Fourth number is responsible for transparency, which can go from 0.1 to 1.0.
+- Hexadecimal notation has a short type, which can be used when all 4 channels have the same value, for eaxmple, white and greay colors - #444 or #fff;
+- It is important to group tags that we want to format in the same way via classes or tag lists.
+
+PSEUDO CLASSES
+- Pseudo classes are speacial tools, that allow us to not making classses ourselves rather thanletting CSS take neede elements for us.
+- For example, instead of manually writing our own class for first elements of every list, we can make CSS do that for us. The syntax is: li:fist-child {color #f2f}
+
+STYLING LINKS
+- It's a good practice to use commnt for dividing the CSS file in to logicla groups of elements that ve are styling.
+- When styling hyperlinks it is better to NOT use the <a> selector, but to use multiple pseudo classes with it, to target different states of hyperlinks.
+- Order of link styling pseudo classes is always the same - a:link, a:visited, a:hover, a:active or LVHA for short.

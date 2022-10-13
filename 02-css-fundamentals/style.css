@@ -1,3 +1,5 @@
+/* Styling text */
+
 h1,
 h2,
 h3,
@@ -5,7 +7,21 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
+
+h1,
+h2,
+h3 {
+  color: #1d98ad;
+}
+
+h2,
+h3 {
+  border-bottom: 3px solid #72d6e7;
+  background-color: #f7f7f7;
+}
+
 h1 {
   font-size: 26px;
   font-style: italic;
@@ -33,3 +49,66 @@ p {
 li {
   font-size: 20px;
 }
+
+/* Styling lists and headers */
+
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-posts {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-list {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 3px solid #72d6e7;
+  border-bottom: 3px solid #72d6e7;
+}
+
+.related-header {
+  color: #1d98ad;
+}
+
+/* Styling hyperlinks */
+a:link {
+  color: #1d98ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1d98ad;
+}
+
+a:hover {
+  font-weight: bold;
+  border-bottom: 2px #1d98ad solid;
+}
+
+a:active {
+  background-color: #72d6e7;
+}
+/* Misconceptions */
+
+/* footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-size: 18px;
+  font-style: italic;
+} */

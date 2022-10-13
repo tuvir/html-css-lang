@@ -15,7 +15,7 @@
     <h5>The basic language of the Web: HTML</h5>
     <h6>The basic language of the Web: HTML</h6>
     -->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -26,15 +26,17 @@
     </header>
 
     <article>
-      <header>
-        <h2>The Basic Language of the Web: HTML</h2>
+      <header class="article-header">
+        <h2 class="article-header">The Basic Language of the Web: HTML</h2>
         <img
           src="img\laura-jones.jpg"
           alt="Picture of author"
           width="50"
           height="50"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="img\post-img.jpg"
           alt="HTML code on the monitor"
@@ -53,7 +55,7 @@
         and why you too should learn it.
       </p>
 
-      <h3>What is HTML?</h3>
+      <h3 class="text=header">What is HTML?</h3>
       <p>
         HTML stands for <strong>H</strong>yper<strong>T</strong>ext
         <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
@@ -66,7 +68,7 @@
         HTML and render HTML code as websites.
       </p>
       <p>In HTML, each element is made up of 3 parts:</p>
-      <ol>
+      <ol class="elements-list">
         <li>The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
@@ -78,12 +80,12 @@
         >.
       </p>
 
-      <h3>Why should you learn HTML?</h3>
+      <h3 class="text=header">Why should you learn HTML?</h3>
       <p>
         There are countless reasons for learning the fundamental language of the
         web. Here are 5 of them:
       </p>
-      <ul>
+      <ul class="reasons-list">
         <li>To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
@@ -97,8 +99,8 @@
     </article>
 
     <aside>
-      <h4><strong>Related posts</strong></h4>
-      <ul>
+      <h4 class="related-header"><strong>Related posts</strong></h4>
+      <ul class="related-list">
         <li>
           <img
             src="img/related-1.jpg"
@@ -107,7 +109,7 @@
             width="75"
           />
           <a href="#">How to learn web-development?</a>
-          <p>By Jonas Shmidtmann</p>
+          <p class="related-posts">By Jonas Shmidtmann</p>
         </li>
 
         <li>
@@ -118,7 +120,7 @@
             width="75"
           />
           <a href="#">The hidden power of CSS</a>
-          <p>By Jim Wazowski</p>
+          <p class="related-posts">By Jim Wazowski</p>
         </li>
 
         <li>
@@ -129,10 +131,12 @@
             width="75"
           />
           <a href="#">Why Javascript is Awesome!</a>
-          <p>By Martha Vayne</p>
+          <p class="related-posts">By Martha Vayne</p>
         </li>
       </ul>
     </aside>
-    <footer><p>Copyright &copy; 2027 The Code Magazine</p></footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 The Code Magazine</p>
+    </footer>
   </body>
 </html>
