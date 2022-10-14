@@ -9,6 +9,11 @@ body {
   color: #444;
 }
 
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 /* HEADERS AND PARAGRAPHS */
 h1,
 h2,

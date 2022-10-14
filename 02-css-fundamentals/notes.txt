@@ -83,3 +83,6 @@ USING HEIGHT AND WIDTH DIMENSIONS
 - Height has a more complicated calculations, due to default behavior of the Box model. It works in such a way, that actual height of an element will be a sum of 'height' property value (which is zero by default) and paddings value. So if we set the 'height' property to 80, and athe same time have 'padding-bottom' being set to 30, the final height of an element will be 110.
 - To edit the dimensions of an image, we can use both HTML attributes and CSS properties. We can set strtin dimensions in HTML, but to make the size of our image adaptive to the size of the screen, we can use CSS property 'width' with 'height' property set to 'auto'.
 - In CSS width not only can be expressed in pixels, but also int percents. The percet value vill represent quantity of parent container that our image will take. For example, value of 50% will mean, that image always be a half the size of it's parent container. And the value of 100% will mean that the image will always be the size of it's parent container.
+
+CENTERING THE PAGE
+- An easy way to center our webpage is to create a <div> and place all contents of a body inside of it. Then, give this div a class and set it's right and left margins to auto. Then, set it's width property to some amount and this will make the page aoutomatically center itself.
