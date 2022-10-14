@@ -33,11 +33,11 @@ WORKING WITH COLORS
 - It is important to group tags that we want to format in the same way via classes or tag lists.
 
 PSEUDO CLASSES
-- Pseudo classes are speacial tools, that allow us to not making classses ourselves rather thanletting CSS take neede elements for us.
+- Pseudo classes are speacial tools, that allow us to not making classses ourselves rather than letting CSS take needed elements for us.
 - For example, instead of manually writing our own class for first elements of every list, we can make CSS do that for us. The syntax is: li:fist-child {color #f2f}
 
 STYLING LINKS
-- It's a good practice to use commnt for dividing the CSS file in to logicla groups of elements that ve are styling.
+- It's a good practice to use comments for dividing the CSS file in to logicla groups of elements that ve are styling.
 - When styling hyperlinks it is better to NOT use the <a> selector, but to use multiple pseudo classes with it, to target different states of hyperlinks.
 - Order of link styling pseudo classes is always the same - a:link, a:visited, a:hover, a:active or LVHA for short.
 
@@ -47,7 +47,7 @@ USING DEVTOOLS
 - After selecting a specific HTML element we can see it's applied CSS styles in the 'Styles' menu.
 
 CONFLICTS BETWEEN SELECTORS
-- When HTML element has multiple CSS rules, that can change it, for example a paragraph, that is changed with a .class, #id and manual p selection, ALL if the changes are applied at once.
+- When HTML element has multiple CSS rules, that can change it, for example a paragraph, that is changed with a .class, #id and manual p selection, ALL of the changes are applied at once.
 - But, when we have multiple identical properties with different values through our CSS rules, for example, multiple font-size properties, that conflict with each other, CSS auotomatically solves these conflicts.
 - What will CSS do is determined by selector priority. #id selectors have highest priority, then goes .class or :pseudo-class selectors, then <element> selectors, then *universal selector.
 - If ve have multiple selectors of the same type, the applied one will be the LAST selector in the code. (It's more complicated in reality).
@@ -62,12 +62,12 @@ INHERITANCE AND UNIVERSAL SELECTORS
 - *universal selector and <body> selector are NOT the same, since inheritance works on <body>, thus not all properties will be inherited by the child elements of the <body>.
 
 CODING A SNEKER SHOP COMPONENT
-- It's best to use classes as a selctors, even in cases when we have a single unique HTML element, for example, <h1>, it is still better to give it a class, that will reflect it's content and change it in the CSS file using clas selector. This technique improve code readability.
+- It's best to use classes as a selctors, even in cases when we have a single unique HTML element, for example, <h1>, it is still better to give it a class, that will reflect it's content and change it in the CSS file using class selector. This technique improves code readability.
 
 CSS BOX MODEL
-- CSS Box model defines how elements are displayed and sized.Box model is a concept by which each element of a webpage can bee seen as a rectangle, that has it's borders, content, and empty space inside and outside the element.
+- CSS Box model defines how elements are displayed and sized. Box model is a concept by which each element of a webpage can bee seen as a rectangle, that has it's borders, content, and empty space inside and outside the element.
 - Each element on the webpage has 4 parametersof the box model: 1. Content area - space where the elemeny content lies. 2. Padding - free space between content area and the border. 3. Border - invisible by default border encircles the padding and content area inside it. 4. Margin - empty space that is located outside the border.
-- Each of thse parameters can be changed manually, but some of them usually save their default value.
+- Each of thse parameters can be changed manually, but some of them usually have their default value.
 - The height and width of the element consits of it's left and right border sizes, left and right padding sizes and the content area size. Margin does not get included into these calculations. This is a default behavior of box model but it can be changed.
 
 USING MARGINS AND PADDINGS
@@ -78,3 +78,8 @@ USING MARGINS AND PADDINGS
 - There is a rule caled 'collapsing margins' that as being applied to the two conflicting margins between two elements. This rule works in a way that the displayed margin will be the larger one, they won't add up to each other. For example if we have h1 margin-bottom: 40px and h2 margin-top: 60px, final margin size won't be 100px, but 60px, since h2 margin-top is larger.
 - Rule of choosing eiteher margins or paddings: if you need to create space INSIDE of an element, that has borders or background color, you use PADDING. To create space OUTSIDE or BETWEEn the individual elements, you use margin. Tis rule also applies to the child elements within parent element. And stick to the 'margin-bottom'.
 
+USING HEIGHT AND WIDTH DIMENSIONS
+- Width has a simple princinple of working, when it's default value will be the size of the page/screen, and it can be manually changed via 'width' property in the CSS rule.
+- Height has a more complicated calculations, due to default behavior of the Box model. It works in such a way, that actual height of an element will be a sum of 'height' property value (which is zero by default) and paddings value. So if we set the 'height' property to 80, and athe same time have 'padding-bottom' being set to 30, the final height of an element will be 110.
+- To edit the dimensions of an image, we can use both HTML attributes and CSS properties. We can set strtin dimensions in HTML, but to make the size of our image adaptive to the size of the screen, we can use CSS property 'width' with 'height' property set to 'auto'.
+- In CSS width not only can be expressed in pixels, but also int percents. The percet value vill represent quantity of parent container that our image will take. For example, value of 50% will mean, that image always be a half the size of it's parent container. And the value of 100% will mean that the image will always be the size of it's parent container.

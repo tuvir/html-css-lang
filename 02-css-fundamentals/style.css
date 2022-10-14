@@ -70,13 +70,18 @@ article {
   margin-bottom: 20px;
 }
 
-.author-picture {
+.author-img {
   margin-bottom: 15px;
 }
 
 .author {
   font-size: 18px;
   font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 /* LISTS */
