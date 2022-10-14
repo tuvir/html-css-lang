@@ -86,3 +86,6 @@ USING HEIGHT AND WIDTH DIMENSIONS
 
 CENTERING THE PAGE
 - An easy way to center our webpage is to create a <div> and place all contents of a body inside of it. Then, give this div a class and set it's right and left margins to auto. Then, set it's width property to some amount and this will make the page aoutomatically center itself.
+
+WORKING WITH PADDINGS AND MARGINS ON A SNEAKER COMPONENT.
+- It's very handy to remove all borders using *universal selector at the begginig of the CSS file.
