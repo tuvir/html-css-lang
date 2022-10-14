@@ -1,18 +1,19 @@
-/* Styling text */
+/* GLOBAL CONFIGS */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
 }
 
+/* HEADERS AND PARAGRAPHS */
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #1d98ad;
 }
 
@@ -30,64 +31,106 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 40px;
 }
 
 h3 {
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 p {
   font-size: 20px;
+  margin-bottom: 15px;
 }
 
-li {
-  font-size: 20px;
+article {
+  margin-bottom: 60px;
 }
 
-/* Styling lists and headers */
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #72d6e7;
+}
 
-#author {
+.site-name {
+  margin-bottom: 15px;
+}
+
+.article-header {
+  margin-bottom: 20px;
+}
+
+.author-picture {
+  margin-bottom: 15px;
+}
+
+.author {
   font-size: 18px;
   font-style: italic;
 }
 
-#copyright {
-  font-size: 16px;
+/* LISTS */
+ol,
+ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
-.related-posts {
-  font-size: 18px;
-  font-weight: bold;
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
 }
 
 .related-list {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
 
+.related-image {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.related-post {
+  margin-bottom: 10px;
+}
+
+/* ASIDE */
 aside {
   background-color: #f7f7f7;
   border-top: 3px solid #72d6e7;
   border-bottom: 3px solid #72d6e7;
+  padding: 30px 0;
+  margin-bottom: 30px;
 }
 
-.related-header {
-  color: #1d98ad;
+/* LINKS */
+a {
+  margin-bottom: 10px;
 }
 
-/* Styling hyperlinks */
 a:link {
   color: #1d98ad;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 a:visited {
@@ -102,6 +145,33 @@ a:hover {
 a:active {
   background-color: #72d6e7;
 }
+
+/* FOOTER */
+.copyright {
+  font-size: 16px;
+}
+
+/* Resolving conflicts */
+
+/* #article-header {
+  color: red;
+}
+#article-header {
+  color: yellow;
+}
+#article-header {
+  color: blue;
+}
+
+.article-header {
+  color: black;
+}
+
+article header h2 {
+  color: pink;
+} */
+/* The color will be blue */
+
 /* Misconceptions */
 
 /* footer p {
@@ -111,4 +181,4 @@ a:active {
 article header p {
   font-size: 18px;
   font-style: italic;
-} */
+} */ ;

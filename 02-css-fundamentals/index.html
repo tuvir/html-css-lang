@@ -16,7 +16,7 @@
     <h6>The basic language of the Web: HTML</h6>
     -->
     <header class="main-header">
-      <h1>📘 The Code Magazine</h1>
+      <h1 class="site-name">📘 The Code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
         <a href="#">Challenges</a>
@@ -27,14 +27,15 @@
 
     <article>
       <header class="article-header">
-        <h2 class="article-header">The Basic Language of the Web: HTML</h2>
+        <h2>The Basic Language of the Web: HTML</h2>
         <img
+          class="author-picture"
           src="img\laura-jones.jpg"
           alt="Picture of author"
           width="50"
           height="50"
         />
-        <p id="author">
+        <p class="author">
           Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
         </p>
         <img
@@ -103,40 +104,43 @@
       <ul class="related-list">
         <li>
           <img
+            class="related-image"
             src="img/related-1.jpg"
             alt="Man writing code"
             height="75"
             width="75"
           />
           <a href="#">How to learn web-development?</a>
-          <p class="related-posts">By Jonas Shmidtmann</p>
+          <p class="related-author">By Jonas Shmidtmann</p>
         </li>
 
         <li>
           <img
+            class="related-image"
             src="img/related-2.jpg"
             alt="Ligthning strike"
             height="75"
             width="75"
           />
           <a href="#">The hidden power of CSS</a>
-          <p class="related-posts">By Jim Wazowski</p>
+          <p class="related-author">By Jim Wazowski</p>
         </li>
 
         <li>
           <img
+            class="related-image"
             src="img/related-3.jpg"
             alt="Javascript code on a screen"
             height="75"
             width="75"
           />
-          <a href="#">Why Javascript is Awesome!</a>
-          <p class="related-posts">By Martha Vayne</p>
+          <a class="related-post" href="#">Why Javascript is Awesome!</a>
+          <p class="related-author">By Martha Vayne</p>
         </li>
       </ul>
     </aside>
     <footer>
-      <p id="copyright">Copyright &copy; 2027 The Code Magazine</p>
+      <p class="copyright">Copyright &copy; 2027 The Code Magazine</p>
     </footer>
   </body>
 </html>

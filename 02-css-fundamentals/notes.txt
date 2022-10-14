@@ -40,3 +40,41 @@ STYLING LINKS
 - It's a good practice to use commnt for dividing the CSS file in to logicla groups of elements that ve are styling.
 - When styling hyperlinks it is better to NOT use the <a> selector, but to use multiple pseudo classes with it, to target different states of hyperlinks.
 - Order of link styling pseudo classes is always the same - a:link, a:visited, a:hover, a:active or LVHA for short.
+
+USING DEVTOOLS
+- DevTools are a poverful platform that exists in the browser. It can be used for different purposes, mainly, testing the webpage.
+- We can select individual HTML elements in the 'Elements' section of DevTools.
+- After selecting a specific HTML element we can see it's applied CSS styles in the 'Styles' menu.
+
+CONFLICTS BETWEEN SELECTORS
+- When HTML element has multiple CSS rules, that can change it, for example a paragraph, that is changed with a .class, #id and manual p selection, ALL if the changes are applied at once.
+- But, when we have multiple identical properties with different values through our CSS rules, for example, multiple font-size properties, that conflict with each other, CSS auotomatically solves these conflicts.
+- What will CSS do is determined by selector priority. #id selectors have highest priority, then goes .class or :pseudo-class selectors, then <element> selectors, then *universal selector.
+- If ve have multiple selectors of the same type, the applied one will be the LAST selector in the code. (It's more complicated in reality).
+- There are two things that are higher priority than the #id selector: inline style and !important keyword (added in CSS file after the needed property). Inline style is not used and !important keywor is the last resort, that is rarely used either.
+
+INHERITANCE AND UNIVERSAL SELECTORS
+- Inheritance is a mechanism, by which child elements inherit some of their parent elements properies.
+- Inherited rules have the lowest priority an can be owerwritten by the other rules. For example, when we have a <body> element and set it's color to blue, and then add <h1> element to the <body>, color of <h1> will be inherited from the <body> and would be blue. But if we were to set <h1> color to red, it woud overwrite the inherited rule, thus making <h1> color red.
+- Inheritance allows us to set default properties to the parent element, that will eventually have a lot of child elements. Inheritance is handy to set such properties as 'color' and 'font-family' in <body> element of the page, to apply the same basic propeties to all of the child elements.
+- The properies that do get inherited are ones related to text: font-size, family, weight; text-transform, shadow, align etc. Most of the other properties DO NOT get inherited.
+- Inheritance mechanism doesn't work on *universal selector. *selector simply applies it's properties to ALL elements of the page. But, since it has the lowest selector priority, it can be overvritten by everything else.
+- *universal selector and <body> selector are NOT the same, since inheritance works on <body>, thus not all properties will be inherited by the child elements of the <body>.
+
+CODING A SNEKER SHOP COMPONENT
+- It's best to use classes as a selctors, even in cases when we have a single unique HTML element, for example, <h1>, it is still better to give it a class, that will reflect it's content and change it in the CSS file using clas selector. This technique improve code readability.
+
+CSS BOX MODEL
+- CSS Box model defines how elements are displayed and sized.Box model is a concept by which each element of a webpage can bee seen as a rectangle, that has it's borders, content, and empty space inside and outside the element.
+- Each element on the webpage has 4 parametersof the box model: 1. Content area - space where the elemeny content lies. 2. Padding - free space between content area and the border. 3. Border - invisible by default border encircles the padding and content area inside it. 4. Margin - empty space that is located outside the border.
+- Each of thse parameters can be changed manually, but some of them usually save their default value.
+- The height and width of the element consits of it's left and right border sizes, left and right padding sizes and the content area size. Margin does not get included into these calculations. This is a default behavior of box model but it can be changed.
+
+USING MARGINS AND PADDINGS
+- Margins and paddings can be manually change to structure the webpage better. We can both add and remove the space between individual elements, using properties like 'margin' and 'padding'.
+- Usually a lot of HTML elements like <h> have default size of margin. To get rid of them and make custommargins ourselves, 'global reset technique' is used.
+- To remove all the default paddings and margins, we use *universal selector and inside of it, set 'padding' and 'margin' to 0. This is one of the first things that you can do in the beggining of a project.
+- Important thing when making free space between elements is to use a single type of margin. Margin-bottom is preferable.
+- There is a rule caled 'collapsing margins' that as being applied to the two conflicting margins between two elements. This rule works in a way that the displayed margin will be the larger one, they won't add up to each other. For example if we have h1 margin-bottom: 40px and h2 margin-top: 60px, final margin size won't be 100px, but 60px, since h2 margin-top is larger.
+- Rule of choosing eiteher margins or paddings: if you need to create space INSIDE of an element, that has borders or background color, you use PADDING. To create space OUTSIDE or BETWEEn the individual elements, you use margin. Tis rule also applies to the child elements within parent element. And stick to the 'margin-bottom'.
+
