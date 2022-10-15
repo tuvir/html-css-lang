@@ -112,3 +112,6 @@ FIXING BUGS
 - To compare your code with other code to check for minor differencies, Diffchecker site can be used.
 - Keping selector names simple is essential for avoiding bugs and making code easier to understand.
 - To find a bug you can use the Devtools. For example, to see which selector is actyally changes the element an find it in the CSS file.
+
+WORKING WITH POSITIONING AND BOXES ON A SNEAKER COMPONENT
+- You can add multiple classnames into the single element, whus making it possible to change it with multiple classes. 
