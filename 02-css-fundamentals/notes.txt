@@ -95,3 +95,9 @@ TYPES OF BOXES
 - The boxes that take 100% of the parent element width and grow/hinder adaptively called Block level boxes. This type includes most of the elements by default like <body>, <header>, <h>, <p> etc. They are stcked vertically one after another by default.
 - It's possible to change inline elements into block elements and vise versa by CSS property 'display'. On inline elements ve use 'display: block' and 'display: inline' on a block element.
 - Third type of box is a 'Inline block box'. It takes only needed space and doesn't have any linebreaks, like Inline box, but heights and margis can all be applied to it, like Block box.
+
+ELEMENT POSITIONING MODES
+- First element positioning mode is called 'Normal flow'. In this mode elements are simply laid out as staded in the HTML document. To  enable this mode property 'postion' should be set to 'relative'.
+- Second mode is called 'Absolute positioning'. This mode lets to position the element withou any effect on surrounding element, which can result in overlapping elements. To position the lement in this mode we use positionong keywrds. To enable this mode 'position' is set to 'absolute'.
+- To set the element at the desired place of the the page, we need to set the positioning mode of the wanted element to 'absolute' and the positioning mode of the element inside of which we need the wanted element to 'relative'. For example, if we want a button to be at the bottom-right corner of the page, we can set <button> to 'absolute' and the <body> to 'relative.
+- Using of 'absolute' positioning should be specific. It should not be used for all individual elements, but is is a powerful and handy tool in some cases. 

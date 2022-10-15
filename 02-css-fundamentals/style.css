@@ -7,6 +7,7 @@
 body {
   font-family: sans-serif;
   color: #444;
+  position: relative;
 }
 
 .container {
@@ -129,6 +130,7 @@ aside {
   border-bottom: 3px solid #72d6e7;
   padding: 30px 0;
   margin-bottom: 30px;
+  width: 50%;
 }
 
 /* LINKS */
@@ -168,6 +170,21 @@ a:active {
 /* FOOTER */
 .copyright {
   font-size: 16px;
+}
+
+/* BUTTONS */
+.like {
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #72d6e7;
+  background-color: #f7f7f7;
+  position: absolute;
+  right: 50px;
+  bottom: 650px;
+}
+
+.like:hover {
+  color: #1d98ad;
 }
 
 /* Resolving conflicts */
