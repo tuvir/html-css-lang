@@ -94,10 +94,15 @@ TYPES OF BOXES
 - The content boxes that occupy pnly the space of their size called Inline boxes. This type includes: images, <strong> and <a> elements etc. Heights and widths do not apply to these elements as well as the margins and paddings only applied left and righths.
 - The boxes that take 100% of the parent element width and grow/hinder adaptively called Block level boxes. This type includes most of the elements by default like <body>, <header>, <h>, <p> etc. They are stcked vertically one after another by default.
 - It's possible to change inline elements into block elements and vise versa by CSS property 'display'. On inline elements ve use 'display: block' and 'display: inline' on a block element.
-- Third type of box is a 'Inline block box'. It takes only needed space and doesn't have any linebreaks, like Inline box, but heights and margis can all be applied to it, like Block box.
+- Third type of box is a 'Inline block box'. It takes only needed space and doesn't have any linebreaks, like Inline box, but heights and margins can all be applied to it, like Block box.
 
 ELEMENT POSITIONING MODES
 - First element positioning mode is called 'Normal flow'. In this mode elements are simply laid out as staded in the HTML document. To  enable this mode property 'postion' should be set to 'relative'.
 - Second mode is called 'Absolute positioning'. This mode lets to position the element withou any effect on surrounding element, which can result in overlapping elements. To position the lement in this mode we use positionong keywrds. To enable this mode 'position' is set to 'absolute'.
 - To set the element at the desired place of the the page, we need to set the positioning mode of the wanted element to 'absolute' and the positioning mode of the element inside of which we need the wanted element to 'relative'. For example, if we want a button to be at the bottom-right corner of the page, we can set <button> to 'absolute' and the <body> to 'relative.
-- Using of 'absolute' positioning should be specific. It should not be used for all individual elements, but is is a powerful and handy tool in some cases. 
+- Using of 'absolute' positioning should be specific. It should not be used for all individual elements, but is is a powerful and handy tool in some cases.
+
+PSEUDO ELEMENTS
+- Pseuso elements are a tool that allows us to choose elements without making them manually. To choose a pseudo element we type to semicolumns, like this: '::'. For example, to choose first letter of <h1> element instead of making it an actual element, we can use pseudo class: 'h1"::first-letter'.
+- Adjacent selector (+) is a selector that allows us to choose the very first sibling of an element. A sibling element is an element that has a common parent like <article> and all of child elements of it will be siblings. So we can choose all h3 elements and with the adjacent selector choose all first p elements, like this: h3 + p::first-line.
+- 'after' pseudo element tells to create an element rigth after the chosen one - h1::after. To make this pseudo element work we ALWAYS should to specify the content property, even if it's going to be empty. 'before' allows us to create an element before the neede element.
