@@ -203,6 +203,7 @@ a:active {
 
 .like:hover {
   color: #1d98ad;
+  cursor: pointer;
 }
 
 /* CODE EXAMPLES */

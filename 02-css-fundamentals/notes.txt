@@ -106,3 +106,9 @@ PSEUDO ELEMENTS
 - Pseuso elements are a tool that allows us to choose elements without making them manually. To choose a pseudo element we type to semicolumns, like this: '::'. For example, to choose first letter of <h1> element instead of making it an actual element, we can use pseudo class: 'h1"::first-letter'.
 - Adjacent selector (+) is a selector that allows us to choose the very first sibling of an element. A sibling element is an element that has a common parent like <article> and all of child elements of it will be siblings. So we can choose all h3 elements and with the adjacent selector choose all first p elements, like this: h3 + p::first-line.
 - 'after' pseudo element tells to create an element rigth after the chosen one - h1::after. To make this pseudo element work we ALWAYS should to specify the content property, even if it's going to be empty. 'before' allows us to create an element before the neede element.
+
+FIXING BUGS
+- A good way to check HTML code for bugs is to use HTML online validator. Simply paste your code there and it will highlight all the syntatctic errors or unclose tags that you can fix in the code editor.
+- To compare your code with other code to check for minor differencies, Diffchecker site can be used.
+- Keping selector names simple is essential for avoiding bugs and making code easier to understand.
+- To find a bug you can use the Devtools. For example, to see which selector is actyally changes the element an find it in the CSS file.
