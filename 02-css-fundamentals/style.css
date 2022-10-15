@@ -116,7 +116,6 @@ li:last-child {
 
 .related-image {
   margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .related-post {
@@ -133,14 +132,24 @@ aside {
 }
 
 /* LINKS */
-a {
-  margin-bottom: 10px;
+nav a:link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+aside a:link {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 a:link {
   color: #1d98ad;
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
 a:visited {

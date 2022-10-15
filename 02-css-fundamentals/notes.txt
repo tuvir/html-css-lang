@@ -89,3 +89,9 @@ CENTERING THE PAGE
 
 WORKING WITH PADDINGS AND MARGINS ON A SNEAKER COMPONENT.
 - It's very handy to remove all borders using *universal selector at the begginig of the CSS file.
+
+TYPES OF BOXES
+- The content boxes that occupy pnly the space of their size called Inline boxes. This type includes: images, <strong> and <a> elements etc. Heights and widths do not apply to these elements as well as the margins and paddings only applied left and righths.
+- The boxes that take 100% of the parent element width and grow/hinder adaptively called Block level boxes. This type includes most of the elements by default like <body>, <header>, <h>, <p> etc. They are stcked vertically one after another by default.
+- It's possible to change inline elements into block elements and vise versa by CSS property 'display'. On inline elements ve use 'display: block' and 'display: inline' on a block element.
+- Third type of box is a 'Inline block box'. It takes only needed space and doesn't have any linebreaks, like Inline box, but heights and margis can all be applied to it, like Block box.
