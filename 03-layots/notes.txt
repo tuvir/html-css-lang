@@ -43,3 +43,7 @@ SPACING AND ALIGNING FLEX ITEMS
 THE FLEX PROPERTY
 - The best way to size flex items is to use 'flex' property on all of the items at once or on individual items. 1st value of flex-grow, 2nd is flex-shrink, 3d is the flex-basis. Syntax example: flex: 0 0 200px;
 - Flex properties are applied to the flex items, NOT the flex container.
+
+WORKING WITH FLEXBOX
+- When we need to put some elements into flex container, it's usually better to make a new element and pitnede elements inside of it.
+

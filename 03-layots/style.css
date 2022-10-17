@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -91,21 +91,15 @@ article {
   border-bottom: 3px solid #72d6e7;
 }
 
-.site-name {
-  margin-bottom: 15px;
-}
-
 .article-header {
   margin-bottom: 20px;
-}
-
-.author-img {
-  margin-bottom: 15px;
 }
 
 .author {
   font-size: 18px;
   font-style: italic;
+  margin-bottom: 0;
+  margin-left: 15px;
 }
 
 .post-img {
@@ -135,17 +129,21 @@ li:last-child {
 }
 
 .related-author {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.related-link {
+  font-size: 17px;
   font-weight: bold;
 }
 
-.related-image {
-  margin-right: 10px;
-}
-
-.related-post {
-  margin-bottom: 10px;
-}
+/* .related-image {
+  margin-right: 18px;
+} */
 
 /* ASIDE */
 aside {
@@ -154,13 +152,12 @@ aside {
   border-bottom: 3px solid #72d6e7;
   padding: 30px 40px;
   margin-bottom: 30px;
-  width: 50%;
+  width: 100%;
 }
 
 /* LINKS */
 nav a:link {
   display: inline-block;
-  margin-top: 10px;
   margin-right: 20px;
 }
 
@@ -170,7 +167,7 @@ nav a:link:last-child {
 
 aside a:link {
   display: inline-block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 a:link {
@@ -214,8 +211,27 @@ a:active {
   cursor: pointer;
 }
 
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
 /* FLOATS */
-.author-img {
+/*.author-img {
   float: left;
 }
 
@@ -294,4 +310,4 @@ article header h2 {
 article header p {
   font-size: 18px;
   font-style: italic;
-} */ ;
+} */
