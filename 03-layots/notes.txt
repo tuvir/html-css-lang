@@ -6,7 +6,6 @@ THREE WAYS OF BUILDING LAYOUTS
 - Second way is Flexbox. It's used for laying out elements in a 1-dimensional row. Used for simple components.
 - Third and most common way is CSS grid. Used for making 2-dimensional grid. Perfect for making pages and complex components.
 
-
 FLOAT PROPERTY
 - Float property makes element kinda have an absolute position, in a way that floated element stops affecting others.
 - A good example of this is when we make child element with background color floated and it's backround which is set in parent elements shrinks. This is happening due to to the float property making child element sort of nonexistent thus making parent element's height zero and shrinking the backround. This phenomenon is called collapsing elements.
