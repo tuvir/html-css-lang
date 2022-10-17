@@ -36,3 +36,10 @@ FLEXBOX OwERVIEW
 - Flexbox is perfect replacement for floats, allowing us to write cleaner HTML and CSS code, thus making it easier to refactor.
 - To start with flexbox we make flex container element, to which we give 'display: flex' property. All the child elements of this flex container will become flex items.
 - DIrection n which flex items are laid out is called main axis and is horizontal. Perpendicular axis is caled cross axis. It is always important to know which axis we dealing with, because we can both change their directions and align items by each one of axises.
+
+SPACING AND ALIGNING FLEX ITEMS
+- To make a space between flex items, instead of adding a margin, 'gap' property can be used in flex container element.
+
+THE FLEX PROPERTY
+- The best way to size flex items is to use 'flex' property on all of the items at once or on individual items. 1st value of flex-grow, 2nd is flex-shrink, 3d is the flex-basis. Syntax example: flex: 0 0 200px;
+- Flex properties are applied to the flex items, NOT the flex container.
