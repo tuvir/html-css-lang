@@ -25,3 +25,14 @@ BETTER BOX MODEL BEHAVIOR
 - 'box sizing: border-box' is the go-to type of boxmodel and is usually applied to every element of the webpage. To do that, simply addd this property to the universal selector.
 
 FLEXBOX INTRODUCTION
+- To use Flexbox we need to set 'display' property to 'flex'. Usually, we use this property inside the 'container' parent element with group of child elements. In this case parent element wiill be called Flex container and child elements will be Flex items.
+- The width of flex item will always be exatly the size of the content. The height ill be the size of the tallest flex item. If height is not set to any item, then it will be the size of the content.
+
+FLEXBOX OwERVIEW
+- Flexbox is a set if CSS properties for building 1-dimensional layoutsl
+- The main idea of flexbox is that an empty space inside the container element can de automatically divided by its child elements.
+- Flexbox allows to automatically align elements to one another inside the parent element, both horizontally and vertically.
+- Flexbox solves common problems such as vertical centering and creating equal-height columns.
+- Flexbox is perfect replacement for floats, allowing us to write cleaner HTML and CSS code, thus making it easier to refactor.
+- To start with flexbox we make flex container element, to which we give 'display: flex' property. All the child elements of this flex container will become flex items.
+- DIrection n which flex items are laid out is called main axis and is horizontal. Perpendicular axis is caled cross axis. It is always important to know which axis we dealing with, because we can both change their directions and align items by each one of axises.
