@@ -19,3 +19,8 @@ CLEARING FLOATS
 
 BUILDING A SIMPLE FLOAT LAYOUT
 - To make biulding a layout easier, it is good to add a temporary background color to all of the elements for better visualisation of the grid.
+
+BETTER BOX MODEL BEHAVIOR
+- Default box model behavior creates problems when building complex layouts. To avoid them, 'box-sizing' property is set to 'border-box'.
+- The way that this method works, is that it always makes the lement have the defined width, without adding paddin or borer to the defined width, like default box model. WHenever we add pading to the box-sized element, it doesn't add the size of the padding to the size of the element, but takes it from the content area of the element, making it smaller. But the size of the element always stays the same!
+- 'box sizing: border-box' is the go-to type of boxmodel and is usually applied to every element of the webpage. To do that, simply addd this property to the universal selector.
