@@ -202,7 +202,7 @@ a:active {
   background-color: #f7f7f7;
   position: absolute;
   right: 50px;
-  bottom: 650px;
+  bottom: 100px;
 }
 
 .like:hover {
@@ -230,6 +230,24 @@ nav {
 }
 
 .clearing {
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+}
+
+article {
+  width: 830px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
   clear: both;
 }
 

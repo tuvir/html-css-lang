@@ -17,3 +17,5 @@ CLEARING FLOATS
 - To fix collapsed elements we make empty element inside the collapsed parent element. Then, in CSS file we give this element property 'clear' and set it to 'both'.
 - The better technique to clear floats, is to make a pseudo element after in collapsed parent element, in which we add 'clear' property. Thi way is better because we won't have too much repetative code contructions.
 
+BUILDING A SIMPLE FLOAT LAYOUT
+- To make biulding a layout easier, it is good to add a temporary background color to all of the elements for better visualisation of the grid.
