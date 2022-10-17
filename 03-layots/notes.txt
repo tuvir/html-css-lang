@@ -46,4 +46,4 @@ THE FLEX PROPERTY
 
 WORKING WITH FLEXBOX
 - When we need to put some elements into flex container, it's usually better to make a new element and pitnede elements inside of it.
-
+- To create space between flex items, both gap and margin are acceptable, but gap is better.  
