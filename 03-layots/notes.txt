@@ -1,0 +1,8 @@
+THREE WAYS OF BUILDING LAYOUTS
+- Layout is a structure by which text, images and other ements of content are placed on a page. It gives the page a visual structure, into which we place the content.
+- Building a layout is a process of arranging elements of a page into specific structure instead of having them place one after another (normal flow structure).
+- Main types of layouts are page layoit and component layout. Page layout is made out of individual components that are, which are made out of individual elements themselves. Components are used as buildig blocks.
+- Firts way of building layout is Float layouts. It depends on using 'float' CSS property and is used in older websites.
+- Second way is Flexbox. It's used for laying out elements in a 1-dimensional row. Used for simple components.
+- Third and most common way is CSS grid. Used for making 2-dimensional grid. Perfect for making pages and complex components.
+
