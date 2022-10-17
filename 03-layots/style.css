@@ -1,0 +1,271 @@
+/* GLOBAL CONFIGS */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  position: relative;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADERS AND PARAGRAPHS */
+h1,
+h2,
+h3,
+h4 {
+  color: #1d98ad;
+}
+
+h2,
+h3 {
+  border-bottom: 3px solid #72d6e7;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* h1::after {
+  content: "TOP";
+} */
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #000;
+  font-size: 16px;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #72d6e7;
+}
+
+.site-name {
+  margin-bottom: 15px;
+}
+
+.article-header {
+  margin-bottom: 20px;
+}
+
+.author-img {
+  margin-bottom: 15px;
+}
+
+.author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* LISTS */
+ol,
+ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.related-list {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-image {
+  margin-right: 10px;
+}
+
+.related-post {
+  margin-bottom: 10px;
+}
+
+/* ASIDE */
+aside {
+  background-color: #f7f7f7;
+  border-top: 3px solid #72d6e7;
+  border-bottom: 3px solid #72d6e7;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+/* LINKS */
+nav a:link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+aside a:link {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: #1d98ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1d98ad;
+}
+
+a:hover {
+  font-weight: bold;
+  border-bottom: 2px #1d98ad solid;
+}
+
+a:active {
+  background-color: #72d6e7;
+}
+
+/* FOOTER */
+.copyright {
+  font-size: 16px;
+}
+
+/* BUTTONS */
+.like {
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #72d6e7;
+  background-color: #f7f7f7;
+  position: absolute;
+  right: 50px;
+  bottom: 650px;
+}
+
+.like:hover {
+  color: #1d98ad;
+  cursor: pointer;
+}
+
+/* FLOATS */
+.author-img {
+  float: left;
+}
+
+.author {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearing {
+  clear: both;
+}
+
+/* CODE EXAMPLES */
+
+/* ADJACENT SELECTOR */
+/* h3 + p::first-line {
+  color: #1d98ad;
+} */
+
+/* #article-header {
+  color: red;
+}
+#article-header {
+  color: yellow;
+}
+#article-header {
+  color: blue;
+}
+
+.article-header {
+  color: black;
+}
+
+article header h2 {
+  color: pink;
+} */
+/* The color will be blue */
+
+/* Misconceptions */
+
+/* footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-size: 18px;
+  font-style: italic;
+} */ ;

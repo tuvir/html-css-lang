@@ -6,3 +6,14 @@ THREE WAYS OF BUILDING LAYOUTS
 - Second way is Flexbox. It's used for laying out elements in a 1-dimensional row. Used for simple components.
 - Third and most common way is CSS grid. Used for making 2-dimensional grid. Perfect for making pages and complex components.
 
+
+FLOAT PROPERTY
+- Float property makes element kinda have an absolute position, in a way that floated element stops affecting others.
+- A good example of this is when we make child element with background color floated and it's backround which is set in parent elements shrinks. This is happening due to to the float property making child element sort of nonexistent thus making parent element's height zero and shrinking the backround. This phenomenon is called collapsing elements.
+- For example, if we have a <header> parent with padding of 20 on top and bottom, with <h1> child, which height is 40, the final height of the element is 80. WHen we make <h1> float, it takes <h1>'s 40 height out, leavin only the 40 of <header> padding.
+- When comparing floats to absolute positioning, their similarity is that the are bth being taken out of the noraml flow. But the difference of floats are such: 1. Text and inline elements will wrap around the floated element insted of leaning on them. 2. The container of floated element will not adjust it's height to the element.
+
+CLEARING FLOATS
+- To fix collapsed elements we make empty element inside the collapsed parent element. Then, in CSS file we give this element property 'clear' and set it to 'both'.
+- The better technique to clear floats, is to make a pseudo element after in collapsed parent element, in which we add 'clear' property. Thi way is better because we won't have too much repetative code contructions.
+
