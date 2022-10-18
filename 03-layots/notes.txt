@@ -49,4 +49,5 @@ WORKING WITH FLEXBOX
 - To create space between flex items, both gap and margin are acceptable, but gap is better.  
 - When setting width of flex items it's better to compute the width of each flex item manually, by substracting their width and gap from parent flex container.
 - The better way is to manually set the width for one flex item and the witdh of other will be adjusted automatically.
-- The default value of 'align-items' is stretch, so naturally in a group of flex items all elements will become as long as the longext element. To prevent this, 'align-items' is set to '' in the flex container.
+- The default value of 'align-items' is stretch, so naturally in a group of flex items all elements will become as long as the longext element. To prevent this, 'align-items' is set to 'flex-start' in the flex container.
+- To make flex items automatically adjust their widths simply add 'flex: 1' to all flex items.
