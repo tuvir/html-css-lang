@@ -80,10 +80,6 @@ p {
   margin-bottom: 15px;
 }
 
-article {
-  margin-bottom: 60px;
-}
-
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
@@ -193,6 +189,7 @@ a:active {
   font-size: 16px;
   border-top: #72d6e7 3px solid;
   padding-top: 5px;
+  /* margin-top: 50px; */
 }
 
 /* BUTTONS */
@@ -234,14 +231,16 @@ a:active {
 .flex-container {
   display: flex;
   gap: 75px;
+  margin-bottom: 50px;
+  align-items: flex-start;
 }
 
 article {
-  flex: 0 1 900px;
+  flex: 0 1 825px;
 }
+
 aside {
   flex: 0 1 300px;
-  height: 50%;
 }
 /* FLOATS */
 /*.author-img {
