@@ -51,3 +51,16 @@ WORKING WITH FLEXBOX
 - The better way is to manually set the width for one flex item and the witdh of other will be adjusted automatically.
 - The default value of 'align-items' is stretch, so naturally in a group of flex items all elements will become as long as the longext element. To prevent this, 'align-items' is set to 'flex-start' in the flex container.
 - To make flex items automatically adjust their widths simply add 'flex: 1' to all flex items.
+
+CSS GRID INTRODUCTION
+- Just like in flexbox, in CSS grid we have 'Grid containers' which are parent elements witc grid properties and 'Grid items' which are child elements of grid container.
+- To setup CSS grid, inside the grid container, we give the 'display' property 'grid' value. Then we, enable columns and rows by using 'grid-template-columns' and 'grid-template-rows' properties. The amount of columns/roes is regulated by how much sizes are we adding.
+- When using grid, the only way of adding a space between the grid items is to use 'gap' property. Margins are unavaliable for that.
+- Gap can be individually set both to columns and rows.
+
+CSS GRID OVERVIEW
+- CSS grid is a set of CSS properties that allow us build 2-dimensional layouts.
+- The main CSS grid idea is that we can divide parent container into rows and columns in which we place it's child elements.
+- CSS grid allows us to write less complicated HTML and CSS, thus makin code easier to understand.
+- For a 1d layout flexbox is used, for 2d layout grid is used. They compliment each other well.
+
