@@ -68,4 +68,10 @@ SIZING GRID COLUMNS AND ROWS
 - New sizing unit 'fr' allows to biuld flexible grid items. Items, given size using 'fr' (stands for 'fractional') will aoutomatically adjust their height and width from the get go, unlike 'px'.
 - We can set the column or orw size to auto,so it will alway take only enough space to fill the content area.
 - There are two types of rows and columns: explicit and implicit. Explicit are the ones for which we defined the size. Implicit are the ones that appeared automatically. Fr example, if we have a grid container with 4 grid items and we explicitely make 2 columns and 1 row with their respective sizes, 2 elements in the first ro will have their sizes, bu two leftover elements will hop into the second, implicit row, whi win't have a size.
-- It's good to define the height of the grid container in order to 
+- It's good to define the height of the grid container to make a base height for all rows.
+
+PLACING AND SPACING GRID ITEMS
+- To manipulate the sizes and gutters of grid items we add properties to the grid container, however to change the place of the grod item inside the grid add properties to the items themselves, via clasess etc.
+- To change the place of grid item, 'grid-column' and 'grid-row' properties are used. In these properties values we specify the the begginning and ending column/row. Other items, around item that changed it's position, will automatically align.
+- Not only can we change the items place in the grid, but as well we can change on how much cells does it span through, both vertically and horizontally. This can be done by 'span' keyword which is placed in the value with the numerical value of rows/columns that our item needs to cover.
+- The grid has number from 1 to n going from left to right and numbers from -1 to -1 going in opposite direction. WE can use this to stretch a grid item from beggining to end withou calculating how much rows does the grid have. The syntax: grid-columns: 1 / -1;.
