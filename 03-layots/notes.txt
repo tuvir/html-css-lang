@@ -75,3 +75,8 @@ PLACING AND SPACING GRID ITEMS
 - To change the place of grid item, 'grid-column' and 'grid-row' properties are used. In these properties values we specify the the begginning and ending column/row. Other items, around item that changed it's position, will automatically align.
 - Not only can we change the items place in the grid, but as well we can change on how much cells does it span through, both vertically and horizontally. This can be done by 'span' keyword which is placed in the value with the numerical value of rows/columns that our item needs to cover.
 - The grid has number from 1 to n going from left to right and numbers from -1 to -1 going in opposite direction. WE can use this to stretch a grid item from beggining to end withou calculating how much rows does the grid have. The syntax: grid-columns: 1 / -1;.
+
+ALIGNING GRID ITEMS AND TRACKS
+- When the grid cintainer is bigger than the grid, aligninig of grid items is needed to fill up the empty space.
+- 'align' properties move grid items vertically, while 'justify' move them hirizontally.
+- With 'items' properties we can change the postion of all grid items inside the grid. With 'self' properties we can individually aling a grid item inside it's cell. With 'content' properties, we can align the tracks inside grid.
