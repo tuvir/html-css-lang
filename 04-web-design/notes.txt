@@ -1,3 +1,13 @@
 WEBDESIGN INTRODUCTION
 - The good webdesing is essential to make a website succesful.
 - The overall design concept of the site is depended on it's personality, whis is specified by the product/company.
+
+TYPOGRAPHY BASICS
+- It's better to choose only the popular typefaces. Sans-serif typefaces are better for begginers, for example, Inter or Roboto.
+- Common tools for choosing a typeface are Google fonts and Font squirell.
+- It's normal to change the typeface while working on a site to see which one suits better.
+- To choose font-size, use type scale tool. For basic text, range from 16px to 32px is fine. For long text, like blogpost, its size should start at 20px. For headlines, use 50px+ and boldness set to 600+.
+- For any text, don't go for text under 400.
+- For making good reading experience, it's essential to make lines of text no more than 75 chars per line. Also, for normal-sized text, lineheight should vary from 1,5 to 2, for larger text, it should be lower than 1,5.
+- You can decrease the letter-spacing in headlines, if it feels unnatural.
+- FOr short titltes it might be good to use all-caps.
