@@ -41,10 +41,6 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-/* h1::after {
-  content: "TOP";
-} */
-
 h2 {
   font-size: 40px;
   margin-bottom: 40px;
@@ -228,7 +224,25 @@ a:active {
   margin-bottom: 30px;
 }
 
-.flex-container {
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 40px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+footer {
+  grid-column: 1 / -1;
+}
+
+/* .flex-container {
   display: flex;
   gap: 75px;
   margin-bottom: 50px;
@@ -241,7 +255,7 @@ article {
 
 aside {
   flex: 0 1 300px;
-}
+} */
 /* FLOATS */
 /*.author-img {
   float: left;
@@ -322,4 +336,4 @@ article header h2 {
 article header p {
   font-size: 18px;
   font-style: italic;
-} */
+} */ ;
