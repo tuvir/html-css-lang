@@ -14,3 +14,10 @@ TYPOGRAPHY BASICS
 
 IMPLEMENTING TYPOGRAPHY
 - To add a new font to our web page, we find the needed font on Google Fonts and choose needed weights. Ususally, it's enough to choose 400px, bold, and something in between. Then, we copy the link and add it to the HTML document, int the <head> section, as well as changing the 'font-family' property in our CSS file, adding new font there.
+
+COLOR BASICS
+- Tools for working with colors and shades: Open color, Flat UI colors 2.
+- To make a good color palette, we ned 2 colors: main color, that represents the site behavior, and 'grey' color, which will be sed for text. Additional colors are velcome, but they need to be carefully picked.
+- After making a system of pure colors, we need to make lighter and dareker tones of them, 'tints' and 'shades' respectively. To do that, Tint and Shade generator or Palleton tools can be used.
+- For text color, shades of grey are better, since plain black text seems too heavy.
+- Better way to write CSS rules for alike elements, is to write common rules in the main class, and diverse rules in the unique subclasses.
