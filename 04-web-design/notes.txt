@@ -21,3 +21,11 @@ COLOR BASICS
 - After making a system of pure colors, we need to make lighter and dareker tones of them, 'tints' and 'shades' respectively. To do that, Tint and Shade generator or Palleton tools can be used.
 - For text color, shades of grey are better, since plain black text seems too heavy.
 - Better way to write CSS rules for alike elements, is to write common rules in the main class, and diverse rules in the unique subclasses.
+
+WORKING WITH IMAGES
+- There are 4 groups of images: product photos, storytelling photos, ilustrations and patterns.
+- Free images are avaliable at Unsplash, Pexels, DrawKit and Undraw.
+- Three methods of including text on images: 1. Darken or brigthen text area. 2. Place text on a neutral image area. 3. Put text in a box.
+- It is always neccesary to compress image files to the maximum, to improve loading time of your website. FOr this, Squoosh tool can be used.
+- To make omages placed side by side look good, we need to make sure they have same dimensions or at least same aspect ratio.
+
