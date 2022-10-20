@@ -40,3 +40,11 @@ WORKING WITH SHADOWS
 
 WORKING WITH BORDER RADIUS
 - To give a rectangular element completely round border, we just set the border to a value bigger, than the elments height.
+
+ADDING WHITESPACE
+- There should always be a lot of whitespace between page sections.
+- Istead of diveiding the group of elements with lines, we use whitespaces for theta, for better visual appeal.
+
+VISUAL HEIRARCHY
+- Wisual heirarchy is a way to establish a 'path' for the user to walk through and see al the key elements of the page in a specified order.
+- It's important to use images mindfully, beacuse they can draw a lot of attention from the more elements of the page. Smaller images draw less attention.
