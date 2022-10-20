@@ -29,3 +29,7 @@ WORKING WITH IMAGES
 - It is always neccesary to compress image files to the maximum, to improve loading time of your website. FOr this, Squoosh tool can be used.
 - To make omages placed side by side look good, we need to make sure they have same dimensions or at least same aspect ratio.
 
+WORKING WITH ICONS
+- To find good quality icons, sites as Phosphor icons, Ionicons and Icons8 can be used.
+- It is important to use one icon pack, to avoid differnt styles of icons. Also, it's neccesary to use svg icons or icon fonts, to avoid pixelating icons.
+-When picking icons for a project, it is better to use SVG format of icons.
