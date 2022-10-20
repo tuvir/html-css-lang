@@ -37,3 +37,6 @@ WORKING WITH ICONS
 WORKING WITH SHADOWS
 - We sould add shadows to our website with care, because if made wrong, they willl look unnatural.
 - To add shadows for figures and carts, ve use 'box-shadow' property, for the text - 'text-shadow' property.
+
+WORKING WITH BORDER RADIUS
+- To give a rectangular element completely round border, we just set the border to a value bigger, than the elments height.
