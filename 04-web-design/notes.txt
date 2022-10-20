@@ -33,3 +33,7 @@ WORKING WITH ICONS
 - To find good quality icons, sites as Phosphor icons, Ionicons and Icons8 can be used.
 - It is important to use one icon pack, to avoid differnt styles of icons. Also, it's neccesary to use svg icons or icon fonts, to avoid pixelating icons.
 -When picking icons for a project, it is better to use SVG format of icons.
+
+WORKING WITH SHADOWS
+- We sould add shadows to our website with care, because if made wrong, they willl look unnatural.
+- To add shadows for figures and carts, ve use 'box-shadow' property, for the text - 'text-shadow' property.
