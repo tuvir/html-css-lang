@@ -1,2 +1,6 @@
 WEBPAGE BUILDING SYSTEM
 - Wehan making a wepage we firrst take individual elements, in which we store our content. Then, we add them together, making components. From individual components we make layouts, based on common layout patterns. Finally, we assemble multiple layouts, to make a webpage.
+
+MAKING A ACCORDION COMPONENT
+- When making space between <li> you can use flexbox, instead of adding margin-bottom. To do that, simply make <ul> a flex container and then set 'flex-direction' to columns. This will rotate the main axis, so it will be facing downwards, thus making the gap property act like a horizontal space between individual <li>
+- You can set default line-height in the body. Usually, it's default value is 1.
