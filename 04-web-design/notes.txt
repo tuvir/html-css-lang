@@ -48,3 +48,8 @@ ADDING WHITESPACE
 VISUAL HEIRARCHY
 - Wisual heirarchy is a way to establish a 'path' for the user to walk through and see al the key elements of the page in a specified order.
 - It's important to use images mindfully, beacuse they can draw a lot of attention from the more elements of the page. Smaller images draw less attention.
+
+UX DESIGN INTRODUCTION
+- Blue underlined text is SPECIFICALLY for links, dnt use it to highlight text.
+- A call to action must always be the most prominent element and have the right description.
+- Animations should have purpose and be fast, between 200 and 500 ms.
