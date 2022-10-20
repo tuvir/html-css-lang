@@ -1,0 +1,2 @@
+WEBPAGE BUILDING SYSTEM
+- Wehan making a wepage we firrst take individual elements, in which we store our content. Then, we add them together, making components. From individual components we make layouts, based on common layout patterns. Finally, we assemble multiple layouts, to make a webpage.
