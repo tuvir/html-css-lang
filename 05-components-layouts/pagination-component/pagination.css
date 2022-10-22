@@ -1,0 +1,84 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* COLORS 
+MAIN COLOR #087f5b
+TEXT COLOR #343a40
+TEXT COLOR #c3fae8
+*/
+
+/* GLOBAL CONFIGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.pagination-container {
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* BUTTONS */
+.btn {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #087f5b;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
+
+button:hover {
+  background-color: #087f5b;
+}
+
+button:hover .btn-icon {
+  stroke: #fff;
+}
+
+/*PAGE NUMBERS */
+.page-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #343a40;
+}
+
+.page-num:link,
+.page-num:visited {
+  text-decoration: none;
+}
+
+.page-num:hover,
+.page-num:active,
+.page-num.page-current {
+  background-color: #087f5b;
+  color: #fff;
+}

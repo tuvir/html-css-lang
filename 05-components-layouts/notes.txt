@@ -17,3 +17,7 @@ MAKING A CAROUSEL COMPONENT
 
 MAKING A TABLE COMPONENT
 - Tables are not often made anymore, but for making them <table> tag is used, instead of CSS grid.
+- Tables have their own tags.
+
+MAKING A PAGINATION COMPONENT
+- When getting rid of backround color in buttons, use 'background: none;'.
