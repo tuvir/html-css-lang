@@ -14,3 +14,6 @@ MAKING A CAROUSEL COMPONENT
 - When absolutely posritioning elements, it's good to use 'transform: translate' property, to adjust the centering more easily.
 - When naming state-classes, it's better to give it both the state and the element name, fo example, when we have a dot element with active and passive states, the adtive stete name, should be 'dot-current' rather than 'current'.
 - Padding property has a shorthand, with which we can set all 4 side-paddings in one go. The sides go clockwise from top to right to bottom to left.
+
+MAKING A TABLE COMPONENT
+- Tables are not often made anymore, but for making them <table> tag is used, instead of CSS grid.
