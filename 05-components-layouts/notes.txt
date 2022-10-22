@@ -21,3 +21,19 @@ MAKING A TABLE COMPONENT
 
 MAKING A PAGINATION COMPONENT
 - When getting rid of backround color in buttons, use 'background: none;'.
+
+LAYOUT PATTERNS AND SECTION COMPONENTS
+The list of section components:
+- Navigation bars are a common component, which stores multiple links to diferent ite pages.
+- Hero section is first component that we see when we enter a webpage. It ususally stores the basic site descriptioan along with some images.
+- Footer is a component which rests in the bottom of each page on a site. It's became a standart to include a complete sidemap inside the footer.
+- Call-to-action is a special component, which goal is to make user buy/subscribe to the site product.
+- Feature rows are components which cintain the description of the product feature or testimonial.
+The list of layout patterns:
+- Row of boxes: a row of individual components with identic shape. Good for product cards etc.
+- Grid of boxes: 2-dimensional grid of content boxes.
+- All of this layout patterns can be used INSIDE of the bigger layouts.
+- Z-pattern: a pattern in which content is placed in a way that is forms a z letter to guide our eyes through. In this pattern each row usually consits of image and text block, which switch sides each row.
+- F-pattern: similar to Z-pattern, but images and text blocks form one single column without switching the sides.
+- Single column: simple layout in which all elements are placed one after another. Often used on mobile.
+- Sidebar: can be used to store options, for example, in web-apps or shops.
