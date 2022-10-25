@@ -41,3 +41,4 @@ The list of layout patterns:
 MAKING A HERO COMPONENT
 - Whe you need to center a omponent inside a parent element, instead of centering the parent element, you can give centering rules DIRECTLY to the component you want to be centered. For example, if you need to center a <nav> inside the <header> you can give container class to nav andcenter the <nav> only.
 - To make a section take up the entire height of the viewport, we add 100vh (stands for viewport height) to the 'height' property.
+- To give an image colored semi-transparent overlay, we add 'linear-gradient' function with 2 same colors inside 'background-image' property, BEFORE the image-path.
