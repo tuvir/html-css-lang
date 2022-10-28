@@ -7,3 +7,11 @@
 - 5. Test and optimize the website. Test the website in all modern browsers. Test the website on mobile devices. Optimize the size of the images and videos. Fix the accessibility issues, if present,like color-conrast and alt image titles. 
 - 6. Launching the site. When the project is finished, upload the files to the hosting platform and choose a domain name, that represents the brand philosophy.
 - 7. Maintaining and updating the site. After launching finished project, you need to install analytics software, like Google analytics, based on which you can cahnge the website layout to boost some parameters.
+
+PLANNING THE PROJECT
+- When planning the website, it's good to make a .md file (stands for 'markdown') with all text content of a website.
+- The website is for a client, a tech-startup, which product is an AI-driven diet making service, which delifers food to users, based on their preferences. The app is being monetized through subscription.
+- Business goal of this website is to sell the omnifood subscription plans to target audience. The user goal is to eat well effortlessly without spending the time and alot of money.
+- The site target audinence are people of all genders, which have above average salary and have trouble with sustaining a healthy diet.
+- Website made exclusively for marketing purposes are often made of single page. They are usually called 'landings'.
+- Website personality: startup/upbeat since the company is tech-first and targeted to people interested in tech. We can also include some elements of calm/peasful personality, since website is about wellbeing of the costumers.
