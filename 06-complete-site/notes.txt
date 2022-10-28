@@ -15,3 +15,12 @@ PLANNING THE PROJECT
 - The site target audinence are people of all genders, which have above average salary and have trouble with sustaining a healthy diet.
 - Website made exclusively for marketing purposes are often made of single page. They are usually called 'landings'.
 - Website personality: startup/upbeat since the company is tech-first and targeted to people interested in tech. We can also include some elements of calm/peasful personality, since website is about wellbeing of the costumers.
+
+SKETCHING THE PROJECT
+- Schematic sketch made in Paint or piece of paper is sufficent.
+- When making a sketch follow the content plan and components that you have planned to place the content in.
+
+DESIGNING THE PROJECT
+- When writing a CSS file, incude a list of project design rules, like font-sizes, weights, colors, spacing etc. This will make overall deign consistent without much effort.
+- To find free images for project or product websites, go to Unsplash.
+- To find different faces pictures fo free UI Faces site can be used.
