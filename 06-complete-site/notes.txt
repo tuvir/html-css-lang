@@ -24,3 +24,8 @@ DESIGNING THE PROJECT
 - When writing a CSS file, incude a list of project design rules, like font-sizes, weights, colors, spacing etc. This will make overall deign consistent without much effort.
 - To find free images for project or product websites, go to Unsplash.
 - To find different faces pictures fo free UI Faces site can be used.
+
+RESPONSIVE DESIGN FUNDAMENTALS
+- Responsive design is a technique that makes a webpage automatically adjust it's content and layout to any possible screen size. In practice, this means that site is goung to look fine both on desktop, mobile, etc.
+- Responsive design consits of 4 parts, which are implemented in respective order: 1. Fluid layouts. 2. Responsive units. 3. Flexible images. 4. Media queries.
+- There are two approaches for building responsive websites: Desktop-first (starting friting CSS for desktop,then media queries shrink the website for smaller devices) and Mobile-first (other way around, makes developers initially reduce the website content down to essentials due to the mobile nature of them).
