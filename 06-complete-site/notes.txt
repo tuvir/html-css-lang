@@ -30,9 +30,15 @@ RESPONSIVE DESIGN FUNDAMENTALS
 - Responsive design consits of 4 parts, which are implemented in respective order: 1. Fluid layouts. 2. Responsive units. 3. Flexible images. 4. Media queries.
 - There are two approaches for building responsive websites: Desktop-first (starting friting CSS for desktop,then media queries shrink the website for smaller devices) and Mobile-first (other way around, makes developers initially reduce the website content down to essentials due to the mobile nature of them).
 
-
 WORKING OF REM AND MAX-WIDTH PROPERTIES
 - To make a fluid layout, it's beter to use 'rem' units to set the heights and widths instead of pixels.
 - The using of 'max-width' instead of 'width' allows the element to adapt it's size to the viewport, by getting smaller when the viewport shrinks below the default element width. In this case, the width of the element will change to the parent container width.
 - Rem is a sizing unit which refers to the font-size, default font-size is 16px so 1rem = 16px. Rem stands for 'Root element' which in our case is HTML element. By changing the font-size in the html element in CSS document, we can instantly change and adjust the sizing of ALL page elements. That's why using rem is better than using px for sizing the elements.
 - Good value to set the rem to is 10px. But rather that setting 'font-size' to 10px in the html element rule, it's better to set it to 62.5%. This will make it possible for users to change the default font-size of a webpage, if thy need to.
+
+MAKING A HERO COMPONENT
+- When acting with small sizes, like half a pixel, it's better to use px, because rem wiil not be comfortable in these situations.
+- To add border on the INSIDE of a button, we use 'box-shadow' property with 'inset' keyword, instead of 'border'.
+- To make the hover more fluid, ve use 'transition' property on the original 'state' of element, for example, when animating links, we use 'transition' on :link and :wisited pseudoclasses.
+- A helper class is a class that we can add to different elements, to give them desired properties outside of the element rule. Foe example, instead of giving margin straight to the element we can can give it a helper class in which we add the desired margin. Helper classes can be added to multiple elements.
+- It's good to add !important keyword to helper classes to insure the working of their properties.
