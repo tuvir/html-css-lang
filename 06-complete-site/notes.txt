@@ -29,3 +29,10 @@ RESPONSIVE DESIGN FUNDAMENTALS
 - Responsive design is a technique that makes a webpage automatically adjust it's content and layout to any possible screen size. In practice, this means that site is goung to look fine both on desktop, mobile, etc.
 - Responsive design consits of 4 parts, which are implemented in respective order: 1. Fluid layouts. 2. Responsive units. 3. Flexible images. 4. Media queries.
 - There are two approaches for building responsive websites: Desktop-first (starting friting CSS for desktop,then media queries shrink the website for smaller devices) and Mobile-first (other way around, makes developers initially reduce the website content down to essentials due to the mobile nature of them).
+
+
+WORKING OF REM AND MAX-WIDTH PROPERTIES
+- To make a fluid layout, it's beter to use 'rem' units to set the heights and widths instead of pixels.
+- The using of 'max-width' instead of 'width' allows the element to adapt it's size to the viewport, by getting smaller when the viewport shrinks below the default element width. In this case, the width of the element will change to the parent container width.
+- Rem is a sizing unit which refers to the font-size, default font-size is 16px so 1rem = 16px. Rem stands for 'Root element' which in our case is HTML element. By changing the font-size in the html element in CSS document, we can instantly change and adjust the sizing of ALL page elements. That's why using rem is better than using px for sizing the elements.
+- Good value to set the rem to is 10px. But rather that setting 'font-size' to 10px in the html element rule, it's better to set it to 62.5%. This will make it possible for users to change the default font-size of a webpage, if thy need to.
