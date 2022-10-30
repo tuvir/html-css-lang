@@ -48,4 +48,10 @@ MAKING A HERO COMPONENT
 MAKING HEADER
 - To separate recurring page elements from the main page content, we use semantic element <main> in which we engulf the contets of the page.
 - When you need tohave an element that is goind to stick on it's place whe you scroll, for example, header, you need to give it a fixed height.
-- Rem unit is tricky, because when user wiil change the default font size, it will affect ALL elements which are sized with rem. We might want use rem on places, which we want to be expanded ur shrunk when user needs it, like images and text,bu things like border radius are better sized by px`.
+- Rem unit is tricky, because when user wiil change the default font size, it will affect ALL elements which are sized with rem. We might want use rem on places, which we want to be expanded ur shrunk when user needs it, like images and text,bu things like border radius are better sized by px.
+
+MAKING A REUSABLE GRID
+- Reusable grid is needed to be made to avoid writing same grid code mutiple times.
+- Reusable grid is made by making a helper-class with desired grid properties, which is then added as a subclass to all elements, which need to be displayed as grid.
+- We can make multiple grid helper-classes with different number of columns, for example, and then add couple of subclasses to fully costumise the grid elements.
+- Another good way to avoid repeating the same code, is to use .container helper class, that will be added to elements, that need centering.
