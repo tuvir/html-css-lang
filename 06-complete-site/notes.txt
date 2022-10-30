@@ -42,3 +42,5 @@ MAKING A HERO COMPONENT
 - To make the hover more fluid, ve use 'transition' property on the original 'state' of element, for example, when animating links, we use 'transition' on :link and :wisited pseudoclasses.
 - A helper class is a class that we can add to different elements, to give them desired properties outside of the element rule. Foe example, instead of giving margin straight to the element we can can give it a helper class in which we add the desired margin. Helper classes can be added to multiple elements.
 - It's good to add !important keyword to helper classes to insure the working of their properties.
+- To make flex-items overlap each other, we use negative margin, not negative gap.
+- When overlapping images, give them a border so that each of them satnds out better.

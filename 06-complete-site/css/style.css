@@ -16,7 +16,9 @@ PRIMARY
 
 TINTS
 #fdf2e9
+
 SHADES
+#cf711f
 
 ACCENTS
 
@@ -118,6 +120,39 @@ html {
 .main-link:hover,
 .main-link:active {
   background-color: #cf711f;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.customers-imgs {
+  display: flex;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.customer-img {
+  border-radius: 50%;
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-left: -1.6rem;
+  border: #fdf2e9 3px solid;
+}
+
+.customer-img:first-child {
+  margin-left: 0;
 }
 
 .hero-img {
