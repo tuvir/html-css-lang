@@ -44,3 +44,8 @@ MAKING A HERO COMPONENT
 - It's good to add !important keyword to helper classes to insure the working of their properties.
 - To make flex-items overlap each other, we use negative margin, not negative gap.
 - When overlapping images, give them a border so that each of them satnds out better.
+
+MAKING HEADER
+- To separate recurring page elements from the main page content, we use semantic element <main> in which we engulf the contets of the page.
+- When you need tohave an element that is goind to stick on it's place whe you scroll, for example, header, you need to give it a fixed height.
+- Rem unit is tricky, because when user wiil change the default font size, it will affect ALL elements which are sized with rem. We might want use rem on places, which we want to be expanded ur shrunk when user needs it, like images and text,bu things like border radius are better sized by px`.

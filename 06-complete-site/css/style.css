@@ -6,8 +6,15 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 FONT WEIGHTS
+DEFAULT: 400
+500
+600
+700
 
 LINE HEIGHTS
+DEFAULT: 1
+1.05
+1.6
 
 -- COLORS
 
@@ -29,6 +36,7 @@ GREYS
 -- SHADOWS
 
 -- BORDER RADIUS
+9px
 
 -- WHITESPACES
 
@@ -56,9 +64,73 @@ html {
   font-size: 62.5%;
 }
 
+/* REUSABLE COMPONENTS */
+
+.margin-right-sm {
+  margin-right: 1rem !important;
+}
+
+/* HEADER */
+
+.main-header {
+  background-color: #fdf2e9;
+  display: flex;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo-img {
+  height: 2.2rem;
+  margin-right: auto;
+  display: block;
+}
+
+/* .main-nav {
+  gap: 2.4rem;
+  display: flex;
+  align-items: center;
+} */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.nav-element:link,
+.nav-element:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-element:hover,
+.nav-element:active {
+  color: #cf711f;
+}
+
+.nav-element.nav-cta:link,
+.nav-element.nav-cta:visited {
+  padding: 0.8rem 1.6rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.nav-element.nav-cta:hover,
+.nav-element.nav-cta:active {
+  background-color: #cf711f;
+}
 /* HERO SECTION */
 
 .section-hero {
+  padding: 4.8rem 0 9.6rem 0;
   background-color: #fdf2e9;
 }
 
@@ -69,8 +141,8 @@ html {
   align-items: center;
   max-width: 130rem;
   margin: 0 auto;
-  padding: 9.6rem 0;
   gap: 9.6rem;
+  padding: 0 3.2rem;
 }
 
 .heading-primary {
@@ -93,7 +165,7 @@ html {
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 1rem;
+  border-radius: 9px;
   padding: 1.6rem 3.2rem;
   display: inline-block;
   transition: background-color 0.3s;
@@ -158,8 +230,4 @@ html {
 .hero-img {
   width: 100%;
   display: block;
-}
-
-.margin-right-sm {
-  margin-right: 1rem !important;
 }
