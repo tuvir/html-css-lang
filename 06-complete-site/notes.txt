@@ -58,3 +58,5 @@ MAKING A REUSABLE GRID
 
 MAKING A HOW IT WORKS SECTION
 - When adding a figure element to the page, don't add an empty <div> into HTML file, instead, use a pseudoelement in CSS.
+- When making a background figure, instead of setting height in px or rem, do it with width and padding bottom, set to % value.
+- To manually change the order of elements to set one at the backroung of other, for example, a figure at the bacjround of an image, we use 'z-index' property, with a negative value on the item that we wnat to end up in the background.

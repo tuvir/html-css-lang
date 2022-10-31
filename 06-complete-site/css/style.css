@@ -23,6 +23,7 @@ PRIMARY
 
 TINTS
 #fdf2e9
+#fae5d3
 
 SHADES
 #cf711f
@@ -217,6 +218,32 @@ SPACING SYSTEM (px)
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.step-img-box::after,
+.step-img-box::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  z-index: -2;
+  background-color: #fdf2e9;
+  width: 60%;
+  padding-bottom: 60%;
+}
+
+.step-img-box::after {
+  z-index: -1;
+  background-color: #fae5d3;
+  width: 45%;
+  padding-bottom: 45%;
 }
 
 .step-description {
