@@ -62,4 +62,7 @@ MAKING A HOW IT WORKS SECTION
 - To manually change the order of elements to set one at the backroung of other, for example, a figure at the bacjround of an image, we use 'z-index' property, with a negative value on the item that we wnat to end up in the background.
 
 MAKING FEATURED IN SECTION 
-- To change the image appeareance directly in CSS we use 'filter' property, where we can select the neede filter.
+- To change the image appeareance directly in CSS we use 'filter' property, where we can select the needed filter.
+
+MAKING SAMPLE MEALS SECTION
+- Another great icon resourse Ionic icons.
