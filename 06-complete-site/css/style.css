@@ -45,59 +45,6 @@ SPACING SYSTEM (px)
 
 */
 
-/* GLOBAL CONFIGS */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Rubik", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-/* REUSABLE COMPONENTS */
-
-.margin-right-sm {
-  margin-right: 1rem !important;
-}
-
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-}
-
-.grid {
-  display: grid;
-  gap: 1.6rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.heading-primary,
-.heading-secondary {
-  font-weight: 700;
-  color: #333;
-  letter-spacing: -0.5px;
-}
-
 /* HEADER */
 
 .main-header {
@@ -255,36 +202,24 @@ html {
 
 /* HOW IT WORKS */
 
-.section-how {
-}
-
-.sub-heading {
-  font-size: 1.6rem;
-  display: block;
-  font-weight: 500;
-  color: #cf711f;
-  text-transform: uppercase;
-  margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
-}
-
-.heading-secondary {
-  margin-bottom: 9.6rem;
-  font-size: 4.4rem;
-  line-height: 1.2;
-}
-
-.heading-3 {
-}
-
 .step-num {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
 }
 
 .app-img {
-  width: 50%;
+  width: 35%;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .step-description {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 1.6;
 }

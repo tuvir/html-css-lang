@@ -57,3 +57,4 @@ MAKING A REUSABLE GRID
 - Another good way to avoid repeating the same code, is to use .container helper class, that will be added to elements, that need centering.
 
 MAKING A HOW IT WORKS SECTION
+- When adding a figure element to the page, don't add an empty <div> into HTML file, instead, use a pseudoelement in CSS.
