@@ -56,7 +56,7 @@ SPACING SYSTEM (px)
   background-color: #fae5d3;
 }
 
-.logo-img {
+.logo-img-header {
   height: 2.2rem;
   margin-right: auto;
   display: block;
@@ -103,7 +103,7 @@ SPACING SYSTEM (px)
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;
   background-color: #fae5d3;
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
 
 .hero-container {
@@ -201,7 +201,39 @@ SPACING SYSTEM (px)
   display: block;
 }
 
+/* FEATURED IN */
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.featured-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heading-featured {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+
+.logo-img-featured {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
 /* HOW IT WORKS */
+
+.section-how {
+  padding: 9.6rem 0;
+}
 
 .step-num {
   font-size: 8.6rem;
