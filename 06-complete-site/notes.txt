@@ -55,3 +55,5 @@ MAKING A REUSABLE GRID
 - Reusable grid is made by making a helper-class with desired grid properties, which is then added as a subclass to all elements, which need to be displayed as grid.
 - We can make multiple grid helper-classes with different number of columns, for example, and then add couple of subclasses to fully costumise the grid elements.
 - Another good way to avoid repeating the same code, is to use .container helper class, that will be added to elements, that need centering.
+
+MAKING A HOW IT WORKS SECTION
