@@ -69,3 +69,5 @@ MAKING SAMPLE MEALS SECTION
 - When making a product card with image at the top, to make the border of a card round, we use 'overflow: hidden' on the image.
 - To give the text in product car ome padding, we need to wrap text-block in a container, and give pading to it directly.
 - When making multiple cards with images, it is important that the images have the same dimensions< to avoid cadrs having different size.
+- We can add hover animations to everythig, just by adding :hover pseudo class to the neede element selector. To make a smooth animation we then add a transition property to the original element.
+- To make a good link underline, instead of 'text-decoration' we simply use 'border-bottom'. To make it disappear, we give it transparent value instead of color value. 
