@@ -66,3 +66,6 @@ MAKING FEATURED IN SECTION
 
 MAKING SAMPLE MEALS SECTION
 - Another great icon resourse Ionic icons.
+- When making a product card with image at the top, to make the border of a card round, we use 'overflow: hidden' on the image.
+- To give the text in product car ome padding, we need to wrap text-block in a container, and give pading to it directly.
+- When making multiple cards with images, it is important that the images have the same dimensions< to avoid cadrs having different size.

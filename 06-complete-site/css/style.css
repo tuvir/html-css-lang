@@ -29,6 +29,9 @@ SHADES
 #cf711f
 
 ACCENTS
+#51cf66
+#ffd43b
+#94d82d
 
 GREYS
 #555 #333
@@ -38,6 +41,7 @@ GREYS
 
 -- BORDER RADIUS
 9px
+11px
 
 -- WHITESPACES
 
@@ -289,8 +293,49 @@ SPACING SYSTEM (px)
   padding-bottom: 9.6rem;
 }
 
+.meal-card {
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
 .meal-img {
   width: 100%;
+}
+
+.meal-text-box {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
+.meal-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.6rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag-vegetarian {
+  background-color: #51cf66;
+}
+
+.tag-vegan {
+  background-color: #94d82d;
+}
+
+.tag-paleo {
+  background-color: #ffd43b;
+}
+
+.meal-tag:last-child {
+  margin-right: 0;
 }
 
 .meal-title {
