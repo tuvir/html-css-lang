@@ -71,3 +71,7 @@ MAKING SAMPLE MEALS SECTION
 - When making multiple cards with images, it is important that the images have the same dimensions< to avoid cadrs having different size.
 - We can add hover animations to everythig, just by adding :hover pseudo class to the neede element selector. To make a smooth animation we then add a transition property to the original element.
 - To make a good link underline, instead of 'text-decoration' we simply use 'border-bottom'. To make it disappear, we give it transparent value instead of color value. 
+
+MAKING A TESTIMONIALS AND GALLERY SECTION
+- 'figure' HTML element is perfect for self-contained contents with caption, like images
+- 'blockquote' element should be used for quotes.
