@@ -337,6 +337,10 @@ SPACING SYSTEM (px)
   color: #cf711f;
 }
 
+.diet-list-card {
+  max-width: 100%;
+}
+
 .diet-title {
   font-size: 2.4rem;
   color: #333;
@@ -429,6 +433,37 @@ SPACING SYSTEM (px)
   padding: 9.6rem 0;
 }
 
+.pricing-card {
+  box-shadow: none;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-card-starter {
+  justify-self: end;
+  box-shadow: inset 0 0 0 2px #fdf2e9;
+}
+
+.pricing-card-complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-card-complete:before {
+  content: "Best deal";
+  position: absolute;
+  top: 5%;
+  right: -12%;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: #ffd43b;
+  color: #333;
+  font-weight: 700;
+  padding: 0.8rem 5.4rem;
+  transform: rotate(45deg);
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -465,6 +500,14 @@ SPACING SYSTEM (px)
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.excluded-feature {
+  color: #6f6f6f;
+}
+
+.excluded-icon {
+  color: #6f6f6f;
 }
 
 .features-container {

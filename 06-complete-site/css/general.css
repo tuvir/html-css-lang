@@ -118,6 +118,10 @@ strong {
   gap: 1.6rem;
 }
 
+.list-item span {
+  line-height: 1.6;
+}
+
 .link:link,
 .link:visited {
   font-size: 2rem;
