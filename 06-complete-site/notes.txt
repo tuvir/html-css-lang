@@ -86,3 +86,7 @@ MAKING A PRICING SECTION
 
 MAKING A CALL TO ACTION SECTION
 - When adding a background image to the element, it is good to set 'bacground-position' to 'center'.
+- To make a form, we use <form> element with action set to URL where form willl send it's data. <form> will then be used as a container for different <input> elements, which can be assigned different values through 'type' parameter.
+- When styling an imput bar, it's good to add an example of data via 'placeholder' and what user needs to input via <label>.
+- To make input field active by clicking on a label, we add id to the iput and then add this id name to the 'for' parameter of desired label.
+- To make it neccesary to fill the input fields, we add 'requiered' parameter.
