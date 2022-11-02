@@ -75,3 +75,7 @@ MAKING SAMPLE MEALS SECTION
 MAKING A TESTIMONIALS AND GALLERY SECTION
 - 'figure' HTML element is perfect for self-contained contents with caption, like images
 - 'blockquote' element should be used for quotes.
+- Reusable grid isn't neccesary used in all situations, for some components that need grid, you can make asepareate one. Reusable grid is more for general layout of the page.
+- WHen making a gallery next to the text block, dont forget to center these grid items vertically, to avoid gallery items stretching.
+- When balancing out the grid, we can think of it as 100 frs, and divide them between grid columns, like percentages.
+- To make a zoom-in hover effect on image, we put image in the <figure> container and then give the container 'overflow: hidden'. Then we make image scale on hover.
