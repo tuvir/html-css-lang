@@ -79,3 +79,5 @@ MAKING A TESTIMONIALS AND GALLERY SECTION
 - WHen making a gallery next to the text block, dont forget to center these grid items vertically, to avoid gallery items stretching.
 - When balancing out the grid, we can think of it as 100 frs, and divide them between grid columns, like percentages.
 - To make a zoom-in hover effect on image, we put image in the <figure> container and then give the container 'overflow: hidden'. Then we make image scale on hover.
+
+MAKING A PRICING SECTION
