@@ -510,7 +510,34 @@ SPACING SYSTEM (px)
   color: #6f6f6f;
 }
 
-.features-container {
-  display: flex;
-  padding: 9.6rem 0;
+.feature-card {
+  padding: 3.2rem;
+  width: 100%;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.feature-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+  margin-bottom: 3.2rem;
+}
+
+.feature {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.feature-hidden {
+  color: transparent;
+}
+
+.feature-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
