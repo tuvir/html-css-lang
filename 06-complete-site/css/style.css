@@ -510,8 +510,13 @@ SPACING SYSTEM (px)
   color: #6f6f6f;
 }
 
+.plans-description {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .feature-card {
-  padding: 3.2rem;
   width: 100%;
 }
 
@@ -520,10 +525,13 @@ SPACING SYSTEM (px)
 }
 
 .feature-icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
   color: #e67e22;
   margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
 }
 
 .feature {
