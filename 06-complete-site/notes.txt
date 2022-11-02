@@ -83,3 +83,6 @@ MAKING A TESTIMONIALS AND GALLERY SECTION
 MAKING A PRICING SECTION
 - To make two cards stand next to each other, we simplly set 'justify-self' on the left card to 'end' by giving it a helper-class. Also, to avoid cards shrinking, instead of max-width we use width, to define how narrow they will be.
 - To visually say that one card is better han the other, we can devalue the least impotant card by giving it no background color. Another way to do it, it to give <strong> to more important car features.
+
+MAKING A CALL TO ACTION SECTION
+- When adding a background image to the element, it is good to set 'bacground-position' to 'center'.

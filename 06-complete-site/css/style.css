@@ -41,6 +41,7 @@ GREYS
 
 
 -- SHADOWS
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
 
 -- BORDER RADIUS
 9px
@@ -548,4 +549,36 @@ SPACING SYSTEM (px)
 .feature-desc {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/* CALL TO ACTION */
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eea564, #e67e22);
+  height: 400px;
+  overflow: hidden;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(238, 164, 100, 0.3) 00,
+      rgba(230, 125, 34, 0.3)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  background-position: center;
 }
