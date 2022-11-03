@@ -85,6 +85,8 @@ SPACING SYSTEM (px)
   font-size: 1.6rem;
   font-weight: 500;
   transition: all 0.3s;
+  border-radius: 9px;
+  padding: 0.2rem 0.4rem;
 }
 
 .nav-element:hover,
@@ -563,7 +565,6 @@ SPACING SYSTEM (px)
   box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eea564, #e67e22);
-  height: 400px;
   overflow: hidden;
 }
 
@@ -598,5 +599,59 @@ SPACING SYSTEM (px)
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
-  row-gap: 24rem;
+  row-gap: 2.4rem;
 }
+
+.cta-form label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.cta-form select {
+  font-family: inherit;
+  width: 100%;
+}
+
+.cta-form input,
+.cta-form select {
+  padding: 1.2rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form button {
+  font-family: inherit;
+  border: none;
+  background-color: #45260a;
+  border-radius: 9px;
+  font-size: 1.8rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.4rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.cta-form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #555;
+}
+
+/* .cta-form *:focus {
+  box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.5);
+} */
