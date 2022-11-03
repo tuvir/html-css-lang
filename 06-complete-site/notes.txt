@@ -92,3 +92,7 @@ MAKING A CALL TO ACTION SECTION
 - To make it neccesary to fill the input fields, we add 'requiered' parameter.
 - 'inherit' keyword canbe used as a value of a property, which will make it forcebly inherit stated property from it'sparent element.
 - 'focus' state is an accessibility attribute, that highlights certain elements on the page when pressing tab key. Default look of it is not beatiful, so we can change it by using ':focus' pseudoclass on universal selector. nice way to change it is to use semi-transparent bix-shadow of contarasting color.
+
+MAKING A FOOTER
+- Footer is not considered the main content of a page, rather than a recurring item. So, the footer element shoyld be placed outside the <main> container.
+- Whe adding links to the footer, better give them same class name, to style them faster.

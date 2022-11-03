@@ -68,8 +68,17 @@ html {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid-center-v {
   align-items: center;
+}
+
+.footer-font {
+  font-size: 1.8rem;
+  color: #767676;
 }
 
 .heading-primary,

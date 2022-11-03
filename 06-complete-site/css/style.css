@@ -28,6 +28,7 @@ TINTS
 
 SHADES
 #cf711f
+#45260a
 
 ACCENTS
 #51cf66
@@ -37,6 +38,7 @@ ACCENTS
 GREYS
 #555 #333
 #6f6f6f lightest possible color on #fdf2e9
+#767676
 
 
 
@@ -59,6 +61,7 @@ SPACING SYSTEM (px)
 .main-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 9.6rem;
   padding: 0 4.8rem;
   background-color: #fae5d3;
@@ -66,7 +69,6 @@ SPACING SYSTEM (px)
 
 .logo-img-header {
   height: 2.2rem;
-  margin-right: auto;
   display: block;
 }
 
@@ -556,7 +558,7 @@ SPACING SYSTEM (px)
 /* CALL TO ACTION */
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .cta-container {
@@ -655,3 +657,81 @@ SPACING SYSTEM (px)
 /* .cta-form *:focus {
   box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.5);
 } */
+
+/*  FOOTER */
+
+.footer {
+  margin-top: 4.6rem;
+  padding: 8rem 4.8rem;
+  background-color: #fdf2e9;
+}
+
+.footer-grid {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  margin-top: 2.4rem;
+  margin-bottom: auto;
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.footer-link {
+  transition: all 0.15s;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  display: inline-block;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #e67e22;
+}
+
+.social-icon {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.footer-copyright {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.footer-header {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+  color: #555;
+}
+
+.footer-contacts {
+  font-style: normal;
+}
+
+.footer-adress {
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+.footer-phone {
+  margin-bottom: 1.2rem;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  list-style: none;
+}
