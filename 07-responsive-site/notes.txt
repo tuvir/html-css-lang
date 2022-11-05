@@ -1,2 +1,12 @@
-WORKING OF MEDIA QUEIRIES
+WORKING OF MEDIA QUERIES
 - Media queiries can be seen as tools, that automatically change certain CSS rules at specific window-width breakpoints.
+- When working wih media queries, we use Device bar im devtools, to preview the site in different screen sizes.
+
+WORKING WITH MEDIA QUERIES
+- When adding resposiveness to the page, it's handy to create a specific file just for media queries.
+- The are two techniques of adding media quries that should be combined to achieve better layouts. First is using certain ranges of device widths, specifically, 600px, 900px, 1200px. Secon is manually decrease the size of our window, and then adding media querie in places where layout breaks.
+- 'rem' and 'em' do NOT depend on font-size stated in the HTML document when sizing media queries. Rgerefore, we divide the needed pixel value by 16 to get the rem value. It's better to use 'em' units when working with media queries.
+
+RESPONSIVE ON SMALL LAPTOPS
+- 1366px is a common small laptops display size (mine, for example), can be used as a starting point.
+- Adding to many media queries to fix every single problem is a bad pracice. It's better to define a couple of key device sizes and fix al problems there.
