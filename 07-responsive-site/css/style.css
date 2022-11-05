@@ -65,6 +65,7 @@ SPACING SYSTEM (px)
   height: 9.6rem;
   padding: 0 4.8rem;
   background-color: #fae5d3;
+  position: relative;
 }
 
 .logo-img-header {
@@ -108,6 +109,25 @@ SPACING SYSTEM (px)
 .nav-element.nav-cta:hover,
 .nav-element.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE MENU */
+
+.btn-menu {
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: none;
+}
+
+.menu-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.menu-icon[name="close-outline"] {
+  display: none;
 }
 
 /* HERO SECTION */
