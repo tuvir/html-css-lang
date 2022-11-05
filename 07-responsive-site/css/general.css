@@ -1,0 +1,190 @@
+/* GLOBAL CONFIGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* *:focus {
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  outline: none;
+} */
+
+/* REUSABLE COMPONENTS */
+
+.margin-right-sm {
+  margin-right: 1rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.list-center-ver {
+  align-items: center;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
+}
+
+.footer-font {
+  font-size: 1.8rem;
+  color: #767676;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  display: block;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  margin-bottom: 9.6rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
+.heading-3 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  color: #333;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.card {
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  color: #e67e22;
+  width: 3rem;
+  height: 3rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-item span {
+  line-height: 1.6;
+}
+
+.link:link,
+.link:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.sub-link:link,
+.sub-link:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.sub-link:hover,
+.sub-link:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.main-link:link,
+.main-link:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.main-link:hover,
+.main-link:active {
+  background-color: #cf711f;
+}
+
+/* .sub--link:link,
+.sub--link:visited {
+  background-color: #fdf2e9;
+  color: #555;
+}
+
+.sub--link:hover,
+.sub--link:active {
+  background-color: #fae5d3;
+} */

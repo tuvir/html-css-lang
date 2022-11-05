@@ -1,0 +1,2 @@
+WORKING OF MEDIA QUEIRIES
+- Media queiries can be seen as tools, that automatically change certain CSS rules at specific window-width breakpoints.
