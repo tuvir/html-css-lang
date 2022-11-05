@@ -13,4 +13,7 @@ RESPONSIVE TO SMALL LAPTOPS
 
 RESPONSIVE TO LANDSCAPE TABLETS
 - Starting width for moble devices is 1200px. At this width the design doesn't usually break, but most of the elements will look huge, so we need to adjust the sizing.
-- To decrease sizes of all contetn, we simply change the font-size in the html element. 
+- To decrease sizes of all contetn, we simply change the font-size in the html element.
+
+RESPONSIVE TO PORTRAIT TABLETS
+- Key device widths: laptop L 1440px/ laptop m 1200px/ laptop s 1024px / tablet l 900px/ tablet s 768px/ mobile l 425px / mobile m 375px / mobile s 320px
