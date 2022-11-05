@@ -7,6 +7,10 @@ WORKING WITH MEDIA QUERIES
 - The are two techniques of adding media quries that should be combined to achieve better layouts. First is using certain ranges of device widths, specifically, 600px, 900px, 1200px. Secon is manually decrease the size of our window, and then adding media querie in places where layout breaks.
 - 'rem' and 'em' do NOT depend on font-size stated in the HTML document when sizing media queries. Rgerefore, we divide the needed pixel value by 16 to get the rem value. It's better to use 'em' units when working with media queries.
 
-RESPONSIVE ON SMALL LAPTOPS
+RESPONSIVE TO SMALL LAPTOPS
 - 1366px is a common small laptops display size (mine, for example), can be used as a starting point.
 - Adding to many media queries to fix every single problem is a bad pracice. It's better to define a couple of key device sizes and fix al problems there.
+
+RESPONSIVE TO LANDSCAPE TABLETS
+- Starting width for moble devices is 1200px. At this width the design doesn't usually break, but most of the elements will look huge, so we need to adjust the sizing.
+- To decrease sizes of all contetn, we simply change the font-size in the html element. 
