@@ -26,3 +26,6 @@ MAKING MOBIE NAVIGATION
 - To properly disable an element without using 'display: none', we go through 3 steps: 1. Hiding the element visually by setting opacity to 0. 2. Making it unaccesible to mouse and keyboard by seting pointer-events to none. 3. Hiding it from screen readers by setting visibility to hidden.
 - When making a hidden menu the defaul state of it should be hiden, but opened state should be toggled by adding opening class to the certain rules.
 - To make the menu appear from the site, we use transformX or tansformY, to push it ou of the viewport on it's default state. In the opened state, we set transfor to 0 to make it look like it's appearing from the back.
+
+RESPONSIVE TO MOBILE PHONES
+- When making assymetricla grid it mighnt be neccesary to add divide the grid with more frs.
