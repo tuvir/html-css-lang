@@ -10,3 +10,5 @@ SITE OPTIMIZATION AND TESTING
 - To analyze the overall perfomance of the site, we use Lighthouse embedded tool in DevTools.
 - To compress images we use Squoosh site and Webp image format.
 
+FINISHED THE COURSE!
+- Completed in 22 days.
