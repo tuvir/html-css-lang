@@ -9,4 +9,4 @@ SITE OPTIMIZATION AND TESTING
 - To see which browsers support certain propertie, caniuse.com site can be used.
 - To analyze the overall perfomance of the site, we use Lighthouse embedded tool in DevTools.
 - To compress images we use Squoosh site and Webp image format.
-- Webp image form
+
