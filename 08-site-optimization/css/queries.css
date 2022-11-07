@@ -189,6 +189,7 @@
     cursor: pointer;
     background: none;
     display: block;
+    z-index: 9999;
   }
 
   .menu-icon {

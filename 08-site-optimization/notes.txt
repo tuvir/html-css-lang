@@ -1,0 +1,2 @@
+JAVASCRIPT INTRODUCTION
+- To add an automatically changing year element in our site, we use Javascript.

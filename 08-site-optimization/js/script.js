@@ -1,3 +1,22 @@
+console.log("Hello, World!");
+const h1 = document.querySelector(".heading-primary");
+
+h1.addEventListener("click", function () {
+  h1.style.backgroundColor = "red";
+  h1.style.fontSize = "20rem";
+});
+
+// setting current year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
+// making mobile navigation work
+const btnNavEl = document.querySelector(".btn-menu");
+const headerEl = document.querySelector(".main-header");
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
