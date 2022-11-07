@@ -4,3 +4,7 @@ JAVASCRIPT INTRODUCTION
 IMPLEMENTING WORKING NAVIGATION AND SMOOTH SCROLLING
 - To make buttons lead to certain page parts, we simply give these parts a unique id each and then put that id in the 'href' parameter of a button. This alone wont have the smooth scrolling.
 - To make a smooth scrolling animation, we can add CSS property 'scroll-behavior: smooth' to the html element. However, this doesn't work in every browser.
+
+SITE OPTIMIZATION AND TESTING
+- To see which browsers support certain propertie, caniuse.com site can be used.
+- To analyze the overall perfomance of the site, we use Lighthouse embedded tool in DevTools.
